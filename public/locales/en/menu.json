@@ -1,0 +1,9 @@
+{
+  "inputPlaceholder" : "Search products...",
+  "serviceFeeDescription" : "10% - Service Charge Will Be Added To Your Bill",
+  "basket" : "Your Basket",
+  "emptyBasket" : "Your basket is empty",
+  "total" : "Total",
+  "subTotal" : "Subtotal",
+  "order" : "Order Now"
+}
