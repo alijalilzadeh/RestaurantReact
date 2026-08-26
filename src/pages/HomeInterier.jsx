@@ -9,8 +9,30 @@ import { GiRoundStar } from "react-icons/gi";
 import ContactUs from "../components/ContactUs";
 import LanguageChanger from "../components/LanguageChanger";
 const HomeInterier = () => {
+  const langSelData = [
+    {
+      shortCase: "az",
+      countryUrl: "https://cdn-icons-png.flaticon.com/128/16021/16021914.png",
+      country: "Azərbaycanca",
+    },
+    {
+      shortCase: "en",
+      countryUrl: "https://cdn-icons-png.flaticon.com/128/8363/8363562.png",
+      country: "English",
+    },
+    {
+      shortCase: "ru",
+      countryUrl: "https://cdn-icons-png.flaticon.com/128/4628/4628645.png",
+      country: "Русский",
+    },
+  ];
+ 
   const { t, i18n } = useTranslation();
   const [langSwitcher, setLangSwitcher] = useState(false);
+  const [selectedLang, setSelectedLang] = useState("az");
+   const filteredSelectedLang = langSelData.find(
+    (item) => item.shortCase === selectedLang,
+  );
   return (
     <>
       <Helmet>
@@ -24,11 +46,23 @@ const HomeInterier = () => {
         {langSwitcher && (
           <>
             <div className="fixed inset-0 bg-black/50 z-20"></div>
-            <LanguageChanger langSwitcher={langSwitcher} setLangSwitcher={setLangSwitcher}/>
+            <LanguageChanger
+              filteredSelectedLang={filteredSelectedLang}
+              langSelData={langSelData}
+              langSwitcher={langSwitcher}
+              setLangSwitcher={setLangSwitcher}
+              selectedLang={selectedLang}
+              setSelectedLang={setSelectedLang}
+            />
           </>
         )}
         <div className="flex flex-col items-center justify-center w-full">
-          <HomeInterierNavbar langSwitcher={langSwitcher} setLangSwitcher={setLangSwitcher}/>
+          <HomeInterierNavbar
+            filteredSelectedLang={filteredSelectedLang}
+            langSwitcher={langSwitcher}
+            setLangSwitcher={setLangSwitcher}
+            langSelData={langSelData}
+          />
           <div className="flex flex-col items-center justify-center  w-[50%] -mt-4 z-10 ">
             <div className="w-25 h-25 border-2 border-white rounded-full overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.15)]">
               <img
@@ -44,11 +78,40 @@ const HomeInterier = () => {
             </p>
             <div className="flex flex-col items-center justify-center w-full gap-3 my-3">
               <div className="flex items-center justify-center gap-2">
-                <GiRoundStar className="text-[#FFD700] w-9 h-9 cursor-pointer" />
-                <GiRoundStar className="text-[#FFD700] w-9 h-9 cursor-pointer" />
-                <GiRoundStar className="text-[#FFD700] w-9 h-9 cursor-pointer" />
-                <GiRoundStar className="text-[#FFD700] w-9 h-9 cursor-pointer" />
-                <GiRoundStar className="text-[#FFD700] w-9 h-9 cursor-pointer" />
+                <div className="flex items-center justify-center relative group">
+                  <GiRoundStar
+                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                  />
+                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
+                </div>
+
+                <div className="flex items-center justify-center relative group">
+                  <GiRoundStar
+                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                  />
+                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
+                </div>
+
+                <div className="flex items-center justify-center relative group">
+                  <GiRoundStar
+                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                  />
+                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
+                </div>
+
+                <div className="flex items-center justify-center relative group">
+                  <GiRoundStar
+                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                  />
+                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
+                </div>
+
+                <div className="flex items-center justify-center relative group">
+                  <GiRoundStar
+                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                  />
+                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
+                </div>
               </div>
               <p className="font-medium text-[16px] text-center text-[#212529]">
                 {t(`rateUs`)}

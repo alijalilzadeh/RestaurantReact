@@ -1,0 +1,1016 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": {
+        "az": "Səhər yeməyi setləri 2 nəfərlik",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast Dishes",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 50,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506191118101245379635.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "Pomidor yumurta/Omlet və ya qlazok"
+            },
+            {
+              "content": "Kükü"
+            },
+            {
+              "content": "Qaynadılmış yumurta"
+            },
+            {
+              "content": "Pancake"
+            },
+            {
+              "content": "Sigara börəyi"
+            },
+            {
+              "content": "Blinçik kəsmikli"
+            },
+            {
+              "content": "Qrenki"
+            },
+            {
+              "content": "Mürəbbə əncir"
+            },
+            {
+              "content": "Mürəbbə çiyələk"
+            },
+            {
+              "content": "Sosiska"
+            },
+            {
+              "content": "Kolbasa"
+            },
+            {
+              "content": "Simit"
+            },
+            {
+              "content": "Bal"
+            },
+            {
+              "content": "Şor"
+            },
+            {
+              "content": "Süzmə"
+            },
+            {
+              "content": "Nutella"
+            },
+            {
+              "content": "Holland pendiri"
+            },
+            {
+              "content": "Motal pendir"
+            },
+            {
+              "content": "Ağ kəsmə pendir"
+            },
+            {
+              "content": "Sacaq pendir"
+            },
+            {
+              "content": "Yumru pendir"
+            },
+            {
+              "content": "Həlqə pendir"
+            },
+            {
+              "content": "Qatılaşdırılmış süd"
+            },
+            {
+              "content": "Meyvə portağal"
+            },
+            {
+              "content": "Limitsiz çay"
+            },
+            {
+              "content": "Limitsiz çörək"
+            },
+            {
+              "content": "Zeytun assorti"
+            },
+            {
+              "content": "Gəncə qaymağı"
+            },
+            {
+              "content": "Kruasan"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": ""
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": ""
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "az": "Pomidor yumurta",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506200314241226402118.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 3,
+      "name": {
+        "az": "Kükü",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506200316012065763691.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 4,
+      "name": {
+        "az": "Omlet",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701163938541581314.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 5,
+      "name": {
+        "az": "Pendirli omlet",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011638311396942301.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 6,
+      "name": {
+        "az": "Sucuq­lu yumurta",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 7,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506200316411325936044.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 7,
+      "name": {
+        "az": "Göz yumurta",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011638321407546209.png",
+      "ingredients": {}
+    },
+    {
+      "id": 8,
+      "name": {
+        "az": "Fəsəli",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701163831206621073.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 9,
+      "name": {
+        "az": "Quymaq",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Səhər Yeməkləri",
+        "en": "Breakfast DishesISHES",
+        "ru": "ЗАВТРАКИ"
+      },
+      "categoryId": 2,
+      "price": 7,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011638321137036470.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 10,
+      "name": {
+        "az": "Pendir",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 7,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506161926401749936354.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 11,
+      "name": {
+        "az": "Motal",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 5,
+      "price": 7,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616192720671097213.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 12,
+      "name": {
+        "az": "Pendir çeşidləri ( kiçik )",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616203840917767822.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 13,
+      "name": {
+        "az": "Pendir çeşidləri ( böyük)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719131375909821.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 14,
+      "name": {
+        "az": "Pendir saçaq",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719131077758131.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 15,
+      "name": {
+        "az": "Pərpətöyn qaymaqlı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162039201656964852.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 16,
+      "name": {
+        "az": "Xiyar-pomidor",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616204106287217549.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "Doğranmış"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "Doğranmış"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "Doğranmış"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": {
+        "az": "Tərəvəz buketi",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701174647445802124.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 18,
+      "name": {
+        "az": "Zeytun çeşidləri",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162042091862945083.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 19,
+      "name": {
+        "az": "Acika",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719161712496363.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 20,
+      "name": {
+        "az": "Qatıq küp",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 2,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162043231599177559.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 21,
+      "name": {
+        "az": "Turşu çeşidləri",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162044031095053965.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 22,
+      "name": {
+        "az": "Turşu sadə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162044581847385687.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 23,
+      "name": {
+        "az": "Sparja turşusu",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719141835502987.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 24,
+      "name": {
+        "az": "Badımcan ruleti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_2026070117191456863726.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 25,
+      "name": {
+        "az": "Toyuq ruleti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719161912309361.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 26,
+      "name": {
+        "az": "Lavaş ruleti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011719131735440811.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 27,
+      "name": {
+        "az": "Ət assorti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171915911988273.png",
+      "ingredients": {}
+    },
+    {
+      "id": 28,
+      "name": {
+        "az": "Blinçik ət ilə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 2.50,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171915107663109.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 29,
+      "name": {
+        "az": "Blinçik kəsmik ilə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 2,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171915910394730.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 30,
+      "name": {
+        "az": "Balıq hisə verilmiş",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 25,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171915858644446.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 31,
+      "name": {
+        "az": "Krevetka (qaynadılmış)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011838551587819278.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 32,
+      "name": {
+        "az": "Doğramac",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616205420971157029.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 33,
+      "name": {
+        "az": "Ayran",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162055041309731802.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 34,
+      "name": {
+        "az": "Çörək",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 2,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162055361659520114.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 35,
+      "name": {
+        "az": "Lavaş",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Soyuq Qəlyanaltılar",
+        "en": "Cold Appetizers",
+        "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
+      },
+      "categoryId": 3,
+      "price": 1,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162056152120423779.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 36,
+      "name": {
+        "az": "Süzmə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701135741481045018.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 37,
+      "name": {
+        "az": "Acılı əzmə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701135742634808448.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 38,
+      "name": {
+        "az": "Haydari",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011357411399557439.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 39,
+      "name": {
+        "az": "Alma əzməsi",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701163506245066649.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 40,
+      "name": {
+        "az": "Atom",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701135742503379028.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 41,
+      "name": {
+        "az": "Humus",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011357421928393919.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 42,
+      "name": {
+        "az": "Cacık",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011357421269510806.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 43,
+      "name": {
+        "az": "Meyvə döyməc",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Məzələr",
+        "en": "Appetizers",
+        "ru": "ЗАКУСКИ"
+      },
+      "categoryId": 4,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011649451641872991.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 44,
+      "name": {
+        "az": "Mərci şorbası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170109591249407385.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 45,
+      "name": {
+        "az": "Tomat şorbası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011711102034515153.png",
+      "ingredients": {}
+    },
+    {
+      "id": 46,
+      "name": {
+        "az": "Toyuq şorbası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616222917337947066.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 47,
+      "name": {
+        "az": "Borş",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011710521339714349.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 48,
+      "name": {
+        "az": "Düşbərə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162229571990337013.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 49,
+      "name": {
+        "az": "Göyərti şorbası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162231271582700080.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 50,
+      "name": {
+        "az": "Dovğa",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162232261305374760.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 51,
+      "name": {
+        "az": "Əriştə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162233421526659525.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 52,
+      "name": {
+        "az": "Əvəlik şorbası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Şorbalar",
+        "en": "Soups",
+        "ru": "СУПЫ"
+      },
+      "categoryId": 5,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171053150706685.png",
+      "ingredients": {}
+    }
+  ]
+}

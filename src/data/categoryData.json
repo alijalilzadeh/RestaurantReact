@@ -1,0 +1,132 @@
+{
+  "categories" : [
+    {
+      "id" : 1,
+      "title" : {
+        "az" : "Ümumi",
+        "en" : "All",
+        "ru" : "Все"
+      }
+    },
+    {
+      "id" : 2,
+      "title" : {
+        "az" : "Səhər Yeməkləri",
+        "en" : "Breakfast Dishes",
+        "ru" : "ЗАВТРАКИ"
+      }
+    },
+    {
+      "id" : 3,
+      "title" : {
+        "az" : "Soyuq Qəlyanaltılar",
+        "en" : "Cold Appetizers",
+        "ru" : "ХОЛОДНЫЕ ЗАКУСКИ"
+      }
+    },
+    {
+      "id" : 4,
+      "title" : {
+        "az" : "Məzələr",
+        "en" : "Appteizers",
+        "ru" : "Закуски"
+      }
+    },
+    {
+      "id" : 5,
+      "title" : {
+        "az" : "Şorbalar",
+        "en" : "Soups",
+        "ru" : "СУПЫ"
+      }
+    },
+    {
+      "id" : 6,
+      "title" : {
+        "az" : "Salatlar",
+        "en" : "Salads",
+        "ru" : "САЛАТЫ"
+      }
+    },
+    {
+      "id" : 7,
+      "title" : {
+        "az" : "Tava Yeməkləri",
+        "en" : "Grilled Dishes",
+        "ru" : "Блюда из сковороды"
+      }
+    },
+    {
+      "id" : 8,
+      "title" : {
+        "az" : "Qazan Yeməkləri",
+        "en" : "Pot Dishes",
+        "ru" : "Блюда в казане"
+      }
+    },
+    {
+      "id" : 9,
+      "title" : {
+        "az" : "Kabablar",
+        "en" : "Kebabs",
+        "ru" : "Кебабы"
+      }
+    },
+    {
+      "id" : 10,
+      "title" : {
+        "az" : "Sac Yeməkləri",
+        "en" : "Saj Dishes",
+        "ru" : "Блюда на сковороде"
+      }
+    },
+    {
+      "id" : 11,
+      "title" : {
+        "az" : "Təndir Yeməkləri",
+        "en" : "Tandoor Dishes",
+        "ru" : "БЛЮДА ИЗ ТАНДЫРА"
+      }
+    },
+    {
+      "id" : 12,
+      "title" : {
+        "az" : "Qarnir",
+        "en" : "Side Dishes",
+        "ru" : "Гарнир"
+      }
+    },
+    {
+      "id" : 13,
+      "title" : {
+        "az" : "Plovlar",
+        "en" : "Rice Dishes",
+        "ru" : "ПЛОВЫ"
+      }
+    },
+    {
+      "id" : 14,
+      "title" : {
+        "az" : "Sərinləşdirici İçkilər",
+        "en" : "Refreshing Drinks",
+        "ru" : "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      }
+    },
+    {
+      "id" : 15,
+      "title" : {
+        "az" : "İsti İçkilər",
+        "en" : "Hot Drinks",
+        "ru" : "ГОРЯЧИЕ НАПИТКИ"
+      }
+    },
+    {
+      "id" : 16,
+      "title" : {
+        "az" : "Meyvə və Desertlər",
+        "en" : "Fruits and Desserts",
+        "ru" : "ФРУКТЫ И ДЕСЕРТ"
+      }
+    }
+  ]
+}
