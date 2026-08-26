@@ -6,7 +6,7 @@ const Menu = () => {
       <div className="grid grid-cols-2 gap-3 justify-items-center w-full px-10">
         {FoodData.products.map((item, id) => (
           <div className="flex flex-col items-center justify-center w-full">
-            <img src={item.imageUrl} className="w-225 h-auto" />
+            <img src={item.imageUrl} className="w-175 h-140 object-cover" />
             <p>{item.name.az}</p>
           </div>
         ))}

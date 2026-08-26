@@ -63,7 +63,7 @@ const HomeInterier = () => {
             setLangSwitcher={setLangSwitcher}
             langSelData={langSelData}
           />
-          <div className="flex flex-col items-center justify-center  w-[50%] -mt-4 z-10 ">
+          <div className="flex flex-col items-center justify-center  w-[50%] -mt-12 z-10 ">
             <div className="w-25 h-25 border-2 border-white rounded-full overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.15)]">
               <img
                 src={restaurantLogo}

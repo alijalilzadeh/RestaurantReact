@@ -600,7 +600,7 @@
         "ru": "ХОЛОДНЫЕ ЗАКУСКИ"
       },
       "categoryId": 3,
-      "price": 2.50,
+      "price": 2.5,
       "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171915107663109.jpg",
       "ingredients": {}
     },
@@ -1010,6 +1010,1865 @@
       "categoryId": 5,
       "price": 5,
       "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171053150706685.png",
+      "ingredients": {}
+    },
+    {
+      "id": 53,
+      "name": {
+        "az": "Sezar salatı toyuqlu",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162127201584029278.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 54,
+      "name": {
+        "az": "Sezar salatı krevetli",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011714561995936412.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 55,
+      "name": {
+        "az": "Xırt-Xırtlı Badımcan salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212416169750877.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 56,
+      "name": {
+        "az": "Pomidor salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162125141749395117.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "Abşeron"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "Absheron"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "Absheron"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": {
+        "az": "Zeytun piyazı salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171456481131330.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 58,
+      "name": {
+        "az": "Göbələk salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011714571269301217.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 59,
+      "name": {
+        "az": "Tərəvəz salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171456337605465.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 60,
+      "name": {
+        "az": "Gavurdağı salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212607669735297.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 61,
+      "name": {
+        "az": "Paytaxt salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212648887668763.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 62,
+      "name": {
+        "az": "Yunan salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212805932497753.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 63,
+      "name": {
+        "az": "Mimoza salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162128451816821635.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 64,
+      "name": {
+        "az": "Manqal Salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212919634559520.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 65,
+      "name": {
+        "az": "Çoban salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616212958704497042.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 66,
+      "name": {
+        "az": "Toyuq salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162131261741088701.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 67,
+      "name": {
+        "az": "Mövsüm salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011714572056952704.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 68,
+      "name": {
+        "az": "Nar salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011714571829712587.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 69,
+      "name": {
+        "az": "Lobya salatı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Salatlar",
+        "en": "Salads",
+        "ru": "САЛАТЫ"
+      },
+      "categoryId": 6,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701171457330510380.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 70,
+      "name": {
+        "az": "Quzu qovurma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 20,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162234542096311260.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 71,
+      "name": {
+        "az": "Çoban qovurma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_2025061622353614341982.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 72,
+      "name": {
+        "az": "Can əti nar qovurma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162236201068885541.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 73,
+      "name": {
+        "az": "Ispanaqlı dana əti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 16,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_2025061622373755998706.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 74,
+      "name": {
+        "az": "Tərxunlu dana əti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 16,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_2025062000165691310903.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 75,
+      "name": {
+        "az": "Şərabda can əti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616224130326369122.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 76,
+      "name": {
+        "az": "Kefli beçə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 22,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162242271960513903.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 77,
+      "name": {
+        "az": "Çolpa tabaka",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616224301370775495.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 78,
+      "name": {
+        "az": "Çolpa çığırtma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 20,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616224357748985186.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 79,
+      "name": {
+        "az": "Çolpa şabalıdlı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Tava Yeməkləri",
+        "en": "Grilled Dishes",
+        "ru": "Блюда из сковороды"
+      },
+      "categoryId": 7,
+      "price": 20,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162244411761931866.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 80,
+      "name": {
+        "az": "Şirəli dana",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162318302053624568.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 81,
+      "name": {
+        "az": "Şirəli maça",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617010809678793458.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 82,
+      "name": {
+        "az": "Tuşonka",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162320182063257791.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 83,
+      "name": {
+        "az": "Quzu soyutma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162321202088371413.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 84,
+      "name": {
+        "az": "Quzu buğlama",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162322012128527361.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 85,
+      "name": {
+        "az": "Yarpaq dolma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250620004320789600903.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 86,
+      "name": {
+        "az": "“3 bacı” dolması",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170534482284265.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 87,
+      "name": {
+        "az": "Küftə bozbaş",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-06/large/i_202606231129531404048623.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 88,
+      "name": {
+        "az": "Piti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 14,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162325402080340061.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 89,
+      "name": {
+        "az": "Şirəli şapalaq",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 25,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_2025061623271271461359.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 90,
+      "name": {
+        "az": "Xaş",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qazan Yeməkləri",
+        "en": "Pot Dishes",
+        "ru": "Блюда в казане"
+      },
+      "categoryId": 8,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170536392386593.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 91,
+      "name": {
+        "az": "Quzu lülə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 9,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170029241492323.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 92,
+      "name": {
+        "az": "Tikə kabab",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011700301451950495.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 93,
+      "name": {
+        "az": "Quzu antrikot",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162359522087256946.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 94,
+      "name": {
+        "az": "Quzu basdırma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011700301131553651.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 95,
+      "name": {
+        "az": "Dana basdırma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617000031915580728.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 96,
+      "name": {
+        "az": "Tikə qırçın",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011700301991971067.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 97,
+      "name": {
+        "az": "Toyuq kababı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170001401648006352.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 98,
+      "name": {
+        "az": "Quzu içalat",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 8,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506200113321444576487.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 99,
+      "name": {
+        "az": "Quyruq kababı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 9,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011700321520481480.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 100,
+      "name": {
+        "az": "Ciyər quyruq",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Kabablar",
+        "en": "Kebabs",
+        "ru": "Кебабы"
+      },
+      "categoryId": 9,
+      "price": 10,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617001655267901062.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 101,
+      "name": {
+        "az": "Sac can əti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sac Yeməkləri",
+        "en": "Saj Dishes",
+        "ru": "Блюда на сковороде"
+      },
+      "categoryId": 10,
+      "price": 35,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616233720335153859.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 102,
+      "name": {
+        "az": "Sac quzu əti",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sac Yeməkləri",
+        "en": "Saj Dishes",
+        "ru": "Блюда на сковороде"
+      },
+      "categoryId": 10,
+      "price": 32,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162337571729694055.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 103,
+      "name": {
+        "az": "Sac quzu içalat",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sac Yeməkləri",
+        "en": "Saj Dishes",
+        "ru": "Блюда на сковороде"
+      },
+      "categoryId": 10,
+      "price": 25,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162336412112503741.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 104,
+      "name": {
+        "az": "Sac kənd çolpası",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sac Yeməkləri",
+        "en": "Saj Dishes",
+        "ru": "Блюда на сковороде"
+      },
+      "categoryId": 10,
+      "price": 25,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616233840896629499.jpg",
+      "ingredients": {
+        "az": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "en": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        },
+        "ru": {
+          "description": [
+            {
+              "content": "2-4 nəfərlik"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 105,
+      "name": {
+        "az": "Quzu səbət",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Təndir Yeməkləri",
+        "en": "Tandoor Dishes",
+        "ru": "БЛЮДА ИЗ ТАНДЫРА"
+      },
+      "categoryId": 11,
+      "price": 90,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617002159971342556.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 106,
+      "name": {
+        "az": "Şapalaq təndir",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Təndir Yeməkləri",
+        "en": "Tandoor Dishes",
+        "ru": "БЛЮДА ИЗ ТАНДЫРА"
+      },
+      "categoryId": 11,
+      "price": 25,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170021171235575959.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 107,
+      "name": {
+        "az": "Çolpa təndir",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Təndir Yeməkləri",
+        "en": "Tandoor Dishes",
+        "ru": "БЛЮДА ИЗ ТАНДЫРА"
+      },
+      "categoryId": 11,
+      "price": 20,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170019281980988958.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 108,
+      "name": {
+        "az": "Quzu maça təndir",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Təndir Yeməkləri",
+        "en": "Tandoor Dishes",
+        "ru": "БЛЮДА ИЗ ТАНДЫРА"
+      },
+      "categoryId": 11,
+      "price": 12,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011654331135151285.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 109,
+      "name": {
+        "az": "Ev sayağı kartof qızartması",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162343511570508163.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 110,
+      "name": {
+        "az": "Düyü plovu",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162340501198958020.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 111,
+      "name": {
+        "az": "Qarabaşaq",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162343021186171798.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 112,
+      "name": {
+        "az": "Kartof püre",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162344211342447504.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 113,
+      "name": {
+        "az": "Kartof fri",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162344482106438195.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 114,
+      "name": {
+        "az": "Nuggets",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162345281589077144.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 115,
+      "name": {
+        "az": "Toyuq budu",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Qarnir",
+        "en": "Side Dishes",
+        "ru": "Гарнир"
+      },
+      "categoryId": 12,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170202974986228.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 116,
+      "name": {
+        "az": "Şah plov (Böyük)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 60,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162355431151675926.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 117,
+      "name": {
+        "az": "Şah plov (Kiçik)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 40,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616235659660420381.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 118,
+      "name": {
+        "az": "Şüyüdlü plov (maça ilə)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 18,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170120868760591.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 119,
+      "name": {
+        "az": "Turşu qovurma plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162347291746688829.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 120,
+      "name": {
+        "az": "Səbzi plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162348141448867647.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 121,
+      "name": {
+        "az": "Şuşa plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170120265501563.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 122,
+      "name": {
+        "az": "Fisincan plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701170120265501563.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 123,
+      "name": {
+        "az": "Çığırtma plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616235407979545494.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 124,
+      "name": {
+        "az": "Gilənar plov (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Plovlar",
+        "en": "Rice Dishes",
+        "ru": "ПЛОВЫ"
+      },
+      "categoryId": 13,
+      "price": 16,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616235504510278640.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 125,
+      "name": {
+        "az": "Nar şirəsi (1lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701164317863260070.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 126,
+      "name": {
+        "az": "Ev sayağı kompot (reyhan)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011805161046662701.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 127,
+      "name": {
+        "az": "Ev sayağı kompot (tərxun)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701180526508734902.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 128,
+      "name": {
+        "az": "Bağdan kompot (1lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701164318405006686.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 129,
+      "name": {
+        "az": "Limonad duşes (0.5lt)",
+        "en": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011806072124939019.jpg",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011806072124939019.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 130,
+      "name": {
+        "az": "Limonad tərxun (0.5lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701164318382328603.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 131,
+      "name": {
+        "az": "Meyvə şirəsi",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011441542060938192.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 132,
+      "name": {
+        "az": "Cola (0.33lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617005157757831311.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 133,
+      "name": {
+        "az": "Fanta (0.33lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170051471013841788.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 134,
+      "name": {
+        "az": "Sprite (0.33lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170052381235819638.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 135,
+      "name": {
+        "az": "Sirab qazlı (0.5lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170053201954923019.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 136,
+      "name": {
+        "az": "Sirab qazsız (0.5lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170053501762332470.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 137,
+      "name": {
+        "az": "İstisu (Kəlbəcər)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701164317126040830.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 138,
+      "name": {
+        "az": "Sarıkız",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011643191322872421.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 139,
+      "name": {
+        "az": "Redbull (0.33lt)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Sərinləşdirici İçkilər",
+        "en": "Refreshing Drinks",
+        "ru": "ОХЛАЖДАЮЩИЕ НАПИТКИ"
+      },
+      "categoryId": 14,
+      "price": 7,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701164319246001550.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 140,
+      "name": {
+        "az": "Çay dəstgahı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "İsti İçkilər",
+        "en": "Hot Drinks",
+        "ru": "ГОРЯЧИЕ НАПИТКИ"
+      },
+      "categoryId": 15,
+      "price": 30,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250617011036880991435.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 141,
+      "name": {
+        "az": "Samovar",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "İsti İçkilər",
+        "en": "Hot Drinks",
+        "ru": "ГОРЯЧИЕ НАПИТКИ"
+      },
+      "categoryId": 15,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170109151013685881.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 142,
+      "name": {
+        "az": "Çay sadə",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "İsti İçkilər",
+        "en": "Hot Drinks",
+        "ru": "ГОРЯЧИЕ НАПИТКИ"
+      },
+      "categoryId": 15,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701165336490458555.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 143,
+      "name": {
+        "az": "Kofe",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "İsti İçkilər",
+        "en": "Hot Drinks",
+        "ru": "ГОРЯЧИЕ НАПИТКИ"
+      },
+      "categoryId": 15,
+      "price": 4,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011653371676364235.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 144,
+      "name": {
+        "az": "Mürəbbə çeşidləri",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011652181689420682.jpg",
+      "ingredients": {
+        "az" : {
+          "description" : [
+            {
+              "content" : "ağ gilas"
+            },
+            {
+              "content" : "çiyələk"
+            },
+            {
+              "content" : "qoz"
+            },
+            {
+              "content" : "albalı"
+            }
+          ]
+        },
+         "en" : {
+          "description" : [
+            {
+              "content" : "ağ gilas"
+            },
+            {
+              "content" : "çiyələk"
+            },
+            {
+              "content" : "qoz"
+            },
+            {
+              "content" : "albalı"
+            }
+          ]
+        },
+         "ru" : {
+          "description" : [
+            {
+              "content" : "ağ gilas"
+            },
+            {
+              "content" : "çiyələk"
+            },
+            {
+              "content" : "qoz"
+            },
+            {
+              "content" : "albalı"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 145,
+      "name": {
+        "az": "Paxlava çeşidləri (milli)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011652181013693368.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 146,
+      "name": {
+        "az": "Paxlava çeşidləri (türk)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701165316664007886.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 147,
+      "name": {
+        "az": "Kabak tatlısı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_2026070116531712165123.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 148,
+      "name": {
+        "az": "Heyva tatlısı",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 6,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_20260701165317775068977.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 149,
+      "name": {
+        "az": "Sütlac",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011653181006944335.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 150,
+      "name": {
+        "az": "Dondurma",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 3,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011653182099516020.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 151,
+      "name": {
+        "az": "Meyvə çeşidləri (mövsümi)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 15,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170039262057132484.jpg",
+      "ingredients": {}
+    },
+    {
+      "id": 152,
+      "name": {
+        "az": "Meyvə (1 porsiya)",
+        "en": "",
+        "ru": ""
+      },
+      "category": {
+        "az": "Meyvə və Desertlər",
+        "en": "Fruits and Desserts",
+        "ru": "ФРУКТЫ И ДЕСЕРТ"
+      },
+      "categoryId": 16,
+      "price": 5,
+      "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506170039591339387699.jpg",
       "ingredients": {}
     }
   ]
