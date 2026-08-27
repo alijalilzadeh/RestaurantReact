@@ -4,8 +4,8 @@
       "id": 1,
       "name": {
         "az": "Səhər yeməyi setləri 2 nəfərlik",
-        "en": "",
-        "ru": ""
+        "en": "Breakfast Set for 2 Persons",
+        "ru": "Завтрак Для 2-х"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -127,8 +127,8 @@
       "id": 2,
       "name": {
         "az": "Pomidor yumurta",
-        "en": "",
-        "ru": ""
+        "en": "Tomato Egg",
+        "ru": "Яйцо с Помидорами"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -144,8 +144,8 @@
       "id": 3,
       "name": {
         "az": "Kükü",
-        "en": "",
-        "ru": ""
+        "en": "Kuku",
+        "ru": "Кюфте"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -161,8 +161,8 @@
       "id": 4,
       "name": {
         "az": "Omlet",
-        "en": "",
-        "ru": ""
+        "en": "Omelet",
+        "ru": "Омлет"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -178,8 +178,8 @@
       "id": 5,
       "name": {
         "az": "Pendirli omlet",
-        "en": "",
-        "ru": ""
+        "en": "Cheese Omelet",
+        "ru": "Омлет с Сыром"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -195,8 +195,8 @@
       "id": 6,
       "name": {
         "az": "Sucuq­lu yumurta",
-        "en": "",
-        "ru": ""
+        "en": "Sausage Egg",
+        "ru": "Яйцо с Сосиской"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -212,8 +212,8 @@
       "id": 7,
       "name": {
         "az": "Göz yumurta",
-        "en": "",
-        "ru": ""
+        "en": "Sunny-Side Up Egg",
+        "ru": "Глазунья"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -229,8 +229,8 @@
       "id": 8,
       "name": {
         "az": "Fəsəli",
-        "en": "",
-        "ru": ""
+        "en": "Flaky flatbread",
+        "ru": "Фасоли"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -246,8 +246,8 @@
       "id": 9,
       "name": {
         "az": "Quymaq",
-        "en": "",
-        "ru": ""
+        "en": "Quymaq",
+        "ru": "Куямак"
       },
       "category": {
         "az": "Səhər Yeməkləri",
@@ -263,8 +263,8 @@
       "id": 10,
       "name": {
         "az": "Pendir",
-        "en": "",
-        "ru": ""
+        "en": "Cheese",
+        "ru": "Сыр"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -280,8 +280,8 @@
       "id": 11,
       "name": {
         "az": "Motal",
-        "en": "",
-        "ru": ""
+        "en": "Cottage Cheese",
+        "ru": "Мотал"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -296,9 +296,9 @@
     {
       "id": 12,
       "name": {
-        "az": "Pendir çeşidləri ( kiçik )",
-        "en": "",
-        "ru": ""
+        "az": "Pendir Çeşidləri ( kiçik )",
+        "en": "Assorted Cheese (small)",
+        "ru": "Ассорти Сыров (маленькое)"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -313,9 +313,9 @@
     {
       "id": 13,
       "name": {
-        "az": "Pendir çeşidləri ( böyük)",
-        "en": "",
-        "ru": ""
+        "az": "Pendir Çeşidləri (Böyük)",
+        "en": "Assorted Cheese (big)",
+        "ru": "Ассорти Сыров (большое)"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -330,9 +330,9 @@
     {
       "id": 14,
       "name": {
-        "az": "Pendir saçaq",
-        "en": "",
-        "ru": ""
+        "az": "Pendir Saçaq",
+        "en": "Cheese Bites",
+        "ru": "Сыр с Зеленью"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -347,9 +347,9 @@
     {
       "id": 15,
       "name": {
-        "az": "Pərpətöyn qaymaqlı",
-        "en": "",
-        "ru": ""
+        "az": "Pərpətöyn Qaymaqlı",
+        "en": "Herb Cream Cheese",
+        "ru": "Сметана с Зеленью"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -364,9 +364,9 @@
     {
       "id": 16,
       "name": {
-        "az": "Xiyar-pomidor",
-        "en": "",
-        "ru": ""
+        "az": "Xiyar-pomidor (Doğranmış)",
+        "en": "Cucumber-Tomato (chopped)",
+        "ru": "Огурец-Помидор (Нарезанный)"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -376,36 +376,14 @@
       "categoryId": 3,
       "price": 4,
       "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_20250616204106287217549.jpg",
-      "ingredients": {
-        "az": {
-          "description": [
-            {
-              "content": "Doğranmış"
-            }
-          ]
-        },
-        "en": {
-          "description": [
-            {
-              "content": "Doğranmış"
-            }
-          ]
-        },
-        "ru": {
-          "description": [
-            {
-              "content": "Doğranmış"
-            }
-          ]
-        }
-      }
+      "ingredients": {}
     },
     {
       "id": 17,
       "name": {
-        "az": "Tərəvəz buketi",
-        "en": "",
-        "ru": ""
+        "az": "Tərəvəz Buketi",
+        "en": "Vegetable Bouquet",
+        "ru": "Букет Овощей"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -420,9 +398,9 @@
     {
       "id": 18,
       "name": {
-        "az": "Zeytun çeşidləri",
-        "en": "",
-        "ru": ""
+        "az": "Zeytun Çeşidləri",
+        "en": "Assorted Olives",
+        "ru": "Ассорти Оливок"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -438,8 +416,8 @@
       "id": 19,
       "name": {
         "az": "Acika",
-        "en": "",
-        "ru": ""
+        "en": "Ajika",
+        "ru": "Ачыка"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -454,9 +432,9 @@
     {
       "id": 20,
       "name": {
-        "az": "Qatıq küp",
-        "en": "",
-        "ru": ""
+        "az": "Qatıq Küp",
+        "en": "Yogurt Cup",
+        "ru": "Йогурт в Горшке"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -471,9 +449,9 @@
     {
       "id": 21,
       "name": {
-        "az": "Turşu çeşidləri",
-        "en": "",
-        "ru": ""
+        "az": "Turşu Çeşidləri",
+        "en": "Assorted Pickles",
+        "ru": "Ассорти Маринадов"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -488,9 +466,9 @@
     {
       "id": 22,
       "name": {
-        "az": "Turşu sadə",
-        "en": "",
-        "ru": ""
+        "az": "Turşu Sadə",
+        "en": "Simple Pickles",
+        "ru": "Простые Маринады"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -505,9 +483,9 @@
     {
       "id": 23,
       "name": {
-        "az": "Sparja turşusu",
-        "en": "",
-        "ru": ""
+        "az": "Sparja Turşusu",
+        "en": "Pickled Asparagus",
+        "ru": "Маринованные Спаржи"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -522,9 +500,9 @@
     {
       "id": 24,
       "name": {
-        "az": "Badımcan ruleti",
-        "en": "",
-        "ru": ""
+        "az": "Badımcan Ruleti",
+        "en": "Eggplant Rolls",
+        "ru": "Рулет из баклажанов"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -539,9 +517,9 @@
     {
       "id": 25,
       "name": {
-        "az": "Toyuq ruleti",
-        "en": "",
-        "ru": ""
+        "az": "Toyuq Ruleti",
+        "en": "Chicken Rolls",
+        "ru": "Рулет из Курицы"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -556,9 +534,9 @@
     {
       "id": 26,
       "name": {
-        "az": "Lavaş ruleti",
-        "en": "",
-        "ru": ""
+        "az": "Lavaş Ruleti",
+        "en": "Lavash Rolls",
+        "ru": "Рулет из Лаваша"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -573,9 +551,9 @@
     {
       "id": 27,
       "name": {
-        "az": "Ət assorti",
-        "en": "",
-        "ru": ""
+        "az": "Ət Assorti",
+        "en": "Meat Assortment",
+        "ru": "Мясное Ассорти"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -590,9 +568,9 @@
     {
       "id": 28,
       "name": {
-        "az": "Blinçik ət ilə",
-        "en": "",
-        "ru": ""
+        "az": "Blinçik Ət ilə",
+        "en": "Meat Blini",
+        "ru": "Блины с Мясом"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -607,9 +585,9 @@
     {
       "id": 29,
       "name": {
-        "az": "Blinçik kəsmik ilə",
-        "en": "",
-        "ru": ""
+        "az": "Blinçik Kəsmik ilə",
+        "en": "Cottage Cheese Blini",
+        "ru": "Блины с Творогом"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -624,9 +602,9 @@
     {
       "id": 30,
       "name": {
-        "az": "Balıq hisə verilmiş",
-        "en": "",
-        "ru": ""
+        "az": "Balıq Hisə verilmiş",
+        "en": "Smoked Fish",
+        "ru": "Копченая Рыба"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -641,9 +619,9 @@
     {
       "id": 31,
       "name": {
-        "az": "Krevetka (qaynadılmış)",
-        "en": "",
-        "ru": ""
+        "az": "Krevetka (Qaynadılmış)",
+        "en": "Boiled Shrimp",
+        "ru": "Креветки (Отварные)"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -659,8 +637,8 @@
       "id": 32,
       "name": {
         "az": "Doğramac",
-        "en": "",
-        "ru": ""
+        "en": "Chopped Salad",
+        "ru": "Измельченный"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -676,8 +654,8 @@
       "id": 33,
       "name": {
         "az": "Ayran",
-        "en": "",
-        "ru": ""
+        "en": "Ayran",
+        "ru": "Айран"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -693,8 +671,8 @@
       "id": 34,
       "name": {
         "az": "Çörək",
-        "en": "",
-        "ru": ""
+        "en": "Bread",
+        "ru": "Хлеб"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -710,8 +688,8 @@
       "id": 35,
       "name": {
         "az": "Lavaş",
-        "en": "",
-        "ru": ""
+        "en": "Lavash",
+        "ru": "Лаваш"
       },
       "category": {
         "az": "Soyuq Qəlyanaltılar",
@@ -727,8 +705,8 @@
       "id": 36,
       "name": {
         "az": "Süzmə",
-        "en": "",
-        "ru": ""
+        "en": "Strained Yogurt",
+        "ru": "Сузма"
       },
       "category": {
         "az": "Məzələr",
@@ -743,9 +721,9 @@
     {
       "id": 37,
       "name": {
-        "az": "Acılı əzmə",
-        "en": "",
-        "ru": ""
+        "az": "Acılı Əzmə",
+        "en": "Spicy Mash",
+        "ru": "Острый пюре"
       },
       "category": {
         "az": "Məzələr",
@@ -761,8 +739,8 @@
       "id": 38,
       "name": {
         "az": "Haydari",
-        "en": "",
-        "ru": ""
+        "en": "Yoghurt Dip",
+        "ru": "Хайдари"
       },
       "category": {
         "az": "Məzələr",
@@ -777,9 +755,9 @@
     {
       "id": 39,
       "name": {
-        "az": "Alma əzməsi",
-        "en": "",
-        "ru": ""
+        "az": "Alma Əzməsi",
+        "en": "Apple Mash",
+        "ru": "Яблочное Пюре"
       },
       "category": {
         "az": "Məzələr",
@@ -795,8 +773,8 @@
       "id": 40,
       "name": {
         "az": "Atom",
-        "en": "",
-        "ru": ""
+        "en": "Atom",
+        "ru": "Атом"
       },
       "category": {
         "az": "Məzələr",
@@ -812,8 +790,8 @@
       "id": 41,
       "name": {
         "az": "Humus",
-        "en": "",
-        "ru": ""
+        "en": "Humus",
+        "ru": "Хумус"
       },
       "category": {
         "az": "Məzələr",
@@ -829,8 +807,8 @@
       "id": 42,
       "name": {
         "az": "Cacık",
-        "en": "",
-        "ru": ""
+        "en": "Cachik",
+        "ru": "Цацики"
       },
       "category": {
         "az": "Məzələr",
@@ -846,8 +824,8 @@
       "id": 43,
       "name": {
         "az": "Meyvə döyməc",
-        "en": "",
-        "ru": ""
+        "en": "Fruit Crush",
+        "ru": "Фруктовый Мармелад"
       },
       "category": {
         "az": "Məzələr",
@@ -862,9 +840,9 @@
     {
       "id": 44,
       "name": {
-        "az": "Mərci şorbası",
-        "en": "",
-        "ru": ""
+        "az": "Mərci Şorbası",
+        "en": "Lentil Soup",
+        "ru": "Чечевичный Суп"
       },
       "category": {
         "az": "Şorbalar",
@@ -879,9 +857,9 @@
     {
       "id": 45,
       "name": {
-        "az": "Tomat şorbası",
-        "en": "",
-        "ru": ""
+        "az": "Tomat Şorbası",
+        "en": "Tomato Soup",
+        "ru": "Томатный Суп"
       },
       "category": {
         "az": "Şorbalar",
@@ -896,9 +874,9 @@
     {
       "id": 46,
       "name": {
-        "az": "Toyuq şorbası",
-        "en": "",
-        "ru": ""
+        "az": "Toyuq Şorbası",
+        "en": "Chicken Soup",
+        "ru": "Куриный Суп"
       },
       "category": {
         "az": "Şorbalar",
@@ -914,8 +892,8 @@
       "id": 47,
       "name": {
         "az": "Borş",
-        "en": "",
-        "ru": ""
+        "en": "Borscht",
+        "ru": "Борщ"
       },
       "category": {
         "az": "Şorbalar",
@@ -931,8 +909,8 @@
       "id": 48,
       "name": {
         "az": "Düşbərə",
-        "en": "",
-        "ru": ""
+        "en": "Dushbere (Azerbaijan Dumpling Soup)",
+        "ru": "Дюшбара"
       },
       "category": {
         "az": "Şorbalar",
@@ -947,9 +925,9 @@
     {
       "id": 49,
       "name": {
-        "az": "Göyərti şorbası",
-        "en": "",
-        "ru": ""
+        "az": "Göyərti Şorbası",
+        "en": "Herb Soup",
+        "ru": "Суп с Зеленью"
       },
       "category": {
         "az": "Şorbalar",
@@ -965,8 +943,8 @@
       "id": 50,
       "name": {
         "az": "Dovğa",
-        "en": "",
-        "ru": ""
+        "en": "Dovga (Yogurt and Spinach Soup)",
+        "ru": "Довга"
       },
       "category": {
         "az": "Şorbalar",
@@ -982,8 +960,8 @@
       "id": 51,
       "name": {
         "az": "Əriştə",
-        "en": "",
-        "ru": ""
+        "en": "Noodle Soup",
+        "ru": "Лапша"
       },
       "category": {
         "az": "Şorbalar",
@@ -998,9 +976,9 @@
     {
       "id": 52,
       "name": {
-        "az": "Əvəlik şorbası",
-        "en": "",
-        "ru": ""
+        "az": "Əvəlik Şorbası",
+        "en": "Avelik Soup",
+        "ru": "Адвалык Суп"
       },
       "category": {
         "az": "Şorbalar",
@@ -1015,9 +993,9 @@
     {
       "id": 53,
       "name": {
-        "az": "Sezar salatı toyuqlu",
-        "en": "",
-        "ru": ""
+        "az": "Sezar Salatı Toyuqlu",
+        "en": "Chicken Caesar Salad",
+        "ru": "Цезарь Салат с Курицей"
       },
       "category": {
         "az": "Salatlar",
@@ -1032,9 +1010,9 @@
     {
       "id": 54,
       "name": {
-        "az": "Sezar salatı krevetli",
-        "en": "",
-        "ru": ""
+        "az": "Sezar Salatı Krevetli",
+        "en": "Shrimp Caesar Salad",
+        "ru": "Цезарь Салат с Креветками"
       },
       "category": {
         "az": "Salatlar",
@@ -1049,9 +1027,9 @@
     {
       "id": 55,
       "name": {
-        "az": "Xırt-Xırtlı Badımcan salatı",
-        "en": "",
-        "ru": ""
+        "az": "Xırt-Xırtlı Badımcan Salatı",
+        "en": "Crispy Eggplant Salad",
+        "ru": "Салат из Хрустящего баклажана"
       },
       "category": {
         "az": "Salatlar",
@@ -1066,9 +1044,9 @@
     {
       "id": 56,
       "name": {
-        "az": "Pomidor salatı",
-        "en": "",
-        "ru": ""
+        "az": "Pomidor Salatı (Abşeron)",
+        "en": "Tomato Salad (Absheron)",
+        "ru": "Салат из Помидоров (Абшерон)"
       },
       "category": {
         "az": "Salatlar",
@@ -1078,36 +1056,14 @@
       "categoryId": 6,
       "price": 8,
       "imageUrl": "https://monyo.az/v4/uploads2/uploads2025-06/a_2253_202506162125141749395117.jpg",
-      "ingredients": {
-        "az": {
-          "description": [
-            {
-              "content": "Abşeron"
-            }
-          ]
-        },
-        "en": {
-          "description": [
-            {
-              "content": "Absheron"
-            }
-          ]
-        },
-        "ru": {
-          "description": [
-            {
-              "content": "Absheron"
-            }
-          ]
-        }
-      }
+      "ingredients": {}
     },
     {
       "id": 57,
       "name": {
-        "az": "Zeytun piyazı salatı",
-        "en": "",
-        "ru": ""
+        "az": "Zeytun piyazı Salatı",
+        "en": "Olive Onion Salad",
+        "ru": "Салат из Оливок"
       },
       "category": {
         "az": "Salatlar",
@@ -1122,9 +1078,9 @@
     {
       "id": 58,
       "name": {
-        "az": "Göbələk salatı",
-        "en": "",
-        "ru": ""
+        "az": "Göbələk Salatı",
+        "en": "Mushroom Salad",
+        "ru": "Салат из Грибов"
       },
       "category": {
         "az": "Salatlar",
@@ -1139,9 +1095,9 @@
     {
       "id": 59,
       "name": {
-        "az": "Tərəvəz salatı",
-        "en": "",
-        "ru": ""
+        "az": "Tərəvəz Salatı",
+        "en": "Vegetable Salad",
+        "ru": "Овощной Салат"
       },
       "category": {
         "az": "Salatlar",
@@ -1156,9 +1112,9 @@
     {
       "id": 60,
       "name": {
-        "az": "Gavurdağı salatı",
-        "en": "",
-        "ru": ""
+        "az": "Gavurdağı Salatı",
+        "en": "Gavurdagh Salad",
+        "ru": "Салат Гавурдагы"
       },
       "category": {
         "az": "Salatlar",
@@ -1173,9 +1129,9 @@
     {
       "id": 61,
       "name": {
-        "az": "Paytaxt salatı",
-        "en": "",
-        "ru": ""
+        "az": "Paytaxt Salatı",
+        "en": "Capital Salad",
+        "ru": "Салат Пентахт"
       },
       "category": {
         "az": "Salatlar",
@@ -1190,9 +1146,9 @@
     {
       "id": 62,
       "name": {
-        "az": "Yunan salatı",
-        "en": "",
-        "ru": ""
+        "az": "Yunan Salatı",
+        "en": "Greek Salad",
+        "ru": "Греческий Салат"
       },
       "category": {
         "az": "Salatlar",
@@ -1207,9 +1163,9 @@
     {
       "id": 63,
       "name": {
-        "az": "Mimoza salatı",
-        "en": "",
-        "ru": ""
+        "az": "Mimoza Salatı",
+        "en": "Mimosa Salad",
+        "ru": "Салат Мимоза"
       },
       "category": {
         "az": "Salatlar",
@@ -1225,8 +1181,8 @@
       "id": 64,
       "name": {
         "az": "Manqal Salatı",
-        "en": "",
-        "ru": ""
+        "en": "Grill Salad",
+        "ru": "Салат Мангал"
       },
       "category": {
         "az": "Salatlar",
@@ -1241,9 +1197,9 @@
     {
       "id": 65,
       "name": {
-        "az": "Çoban salatı",
-        "en": "",
-        "ru": ""
+        "az": "Çoban Salatı",
+        "en": "Shepherd Salad",
+        "ru": "Салат Чобан"
       },
       "category": {
         "az": "Salatlar",
@@ -1258,9 +1214,9 @@
     {
       "id": 66,
       "name": {
-        "az": "Toyuq salatı",
-        "en": "",
-        "ru": ""
+        "az": "Toyuq Salatı",
+        "en": "Chicken Salad",
+        "ru": "Салат из Курицы"
       },
       "category": {
         "az": "Salatlar",
@@ -1275,9 +1231,9 @@
     {
       "id": 67,
       "name": {
-        "az": "Mövsüm salatı",
-        "en": "",
-        "ru": ""
+        "az": "Mövsüm Salatı",
+        "en": "Seasonal Salad",
+        "ru": "Салат Сезонный"
       },
       "category": {
         "az": "Salatlar",
@@ -1292,9 +1248,9 @@
     {
       "id": 68,
       "name": {
-        "az": "Nar salatı",
-        "en": "",
-        "ru": ""
+        "az": "Nar Salatı",
+        "en": "Pomegranate Salad",
+        "ru": "Салат из Граната"
       },
       "category": {
         "az": "Salatlar",
@@ -1309,9 +1265,9 @@
     {
       "id": 69,
       "name": {
-        "az": "Lobya salatı",
-        "en": "",
-        "ru": ""
+        "az": "Lobya Salatı",
+        "en": "Bean Salad",
+        "ru": "Салат из Фасоли"
       },
       "category": {
         "az": "Salatlar",
@@ -1326,9 +1282,9 @@
     {
       "id": 70,
       "name": {
-        "az": "Quzu qovurma",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Qovurma",
+        "en": "Roast Lamb",
+        "ru": "Барашка Тушеная"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1343,9 +1299,9 @@
     {
       "id": 71,
       "name": {
-        "az": "Çoban qovurma",
-        "en": "",
-        "ru": ""
+        "az": "Çoban Qovurma",
+        "en": "Shepherd Roast",
+        "ru": "Тушеная Овечка"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1360,9 +1316,9 @@
     {
       "id": 72,
       "name": {
-        "az": "Can əti nar qovurma",
-        "en": "",
-        "ru": ""
+        "az": "Can Əti Nar Qovurma",
+        "en": "Game Meat Roast",
+        "ru": "Тушеное Мясо Ягненка с Гранатом"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1377,9 +1333,9 @@
     {
       "id": 73,
       "name": {
-        "az": "Ispanaqlı dana əti",
-        "en": "",
-        "ru": ""
+        "az": "Ispanaqlı Dana Əti",
+        "en": "Beef with Spinach",
+        "ru": "Говядина с Щпинатом"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1394,9 +1350,9 @@
     {
       "id": 74,
       "name": {
-        "az": "Tərxunlu dana əti",
-        "en": "",
-        "ru": ""
+        "az": "Tərxunlu Dana Əti",
+        "en": "Tarragon Beef",
+        "ru": "Говядина с Эстрагоном"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1411,9 +1367,9 @@
     {
       "id": 75,
       "name": {
-        "az": "Şərabda can əti",
-        "en": "",
-        "ru": ""
+        "az": "Şərabda Can Əti",
+        "en": "Lamb in Wine",
+        "ru": "Мясо Ягненка в Вине"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1428,13 +1384,13 @@
     {
       "id": 76,
       "name": {
-        "az": "Kefli beçə",
-        "en": "",
-        "ru": ""
+        "az": "Kefli Beçə",
+        "en": "Grilled Chicken",
+        "ru": "Кефирный бочонок"
       },
       "category": {
         "az": "Tava Yeməkləri",
-        "en": "Grilled Dishes",
+        "en": "Grilled Quail",
         "ru": "Блюда из сковороды"
       },
       "categoryId": 7,
@@ -1445,9 +1401,9 @@
     {
       "id": 77,
       "name": {
-        "az": "Çolpa tabaka",
-        "en": "",
-        "ru": ""
+        "az": "Çolpa Tabaka",
+        "en": "Roasted Quail Plate",
+        "ru": "Чолпа Табака"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1462,9 +1418,9 @@
     {
       "id": 78,
       "name": {
-        "az": "Çolpa çığırtma",
-        "en": "",
-        "ru": ""
+        "az": "Çolpa Çığırtma",
+        "en": "Quail with Peppers",
+        "ru": "Чолпа с Хрустящей Корочкой"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1480,8 +1436,8 @@
       "id": 79,
       "name": {
         "az": "Çolpa şabalıdlı",
-        "en": "",
-        "ru": ""
+        "en": "Quail with Chestnuts",
+        "ru": "Чолпа с Каштанами"
       },
       "category": {
         "az": "Tava Yeməkləri",
@@ -1496,9 +1452,9 @@
     {
       "id": 80,
       "name": {
-        "az": "Şirəli dana",
-        "en": "",
-        "ru": ""
+        "az": "Şirəli Dana",
+        "en": "Juicy Beef",
+        "ru": "Тушёная Говядина"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1513,9 +1469,9 @@
     {
       "id": 81,
       "name": {
-        "az": "Şirəli maça",
-        "en": "",
-        "ru": ""
+        "az": "Şirəli Maça",
+        "en": "Juicy Stew",
+        "ru": "Говяжьи Ножки"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1531,8 +1487,8 @@
       "id": 82,
       "name": {
         "az": "Tuşonka",
-        "en": "",
-        "ru": ""
+        "en": "Tushonka",
+        "ru": "Тушёнка"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1547,9 +1503,9 @@
     {
       "id": 83,
       "name": {
-        "az": "Quzu soyutma",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Soyutma",
+        "en": "Chilled Lamb",
+        "ru": "Отварная баранина"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1564,9 +1520,9 @@
     {
       "id": 84,
       "name": {
-        "az": "Quzu buğlama",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Buğlama",
+        "en": "Lamb Stew",
+        "ru": "Тушёная баранина"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1581,9 +1537,9 @@
     {
       "id": 85,
       "name": {
-        "az": "Yarpaq dolma",
-        "en": "",
-        "ru": ""
+        "az": "Yarpaq Dolma",
+        "en": "Stuffed Grape Leaves",
+        "ru": "Долма в Виноградных Листьях"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1598,9 +1554,9 @@
     {
       "id": 86,
       "name": {
-        "az": "“3 bacı” dolması",
-        "en": "",
-        "ru": ""
+        "az": "“3 bacı” Dolması",
+        "en": "“3 sister” Dolma",
+        "ru": "“3 сестра” Долма"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1615,9 +1571,9 @@
     {
       "id": 87,
       "name": {
-        "az": "Küftə bozbaş",
-        "en": "",
-        "ru": ""
+        "az": "Küftə Bozbaş",
+        "en": "Meatball Bozbash",
+        "ru": "Кюфта-бозбаш "
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1633,8 +1589,8 @@
       "id": 88,
       "name": {
         "az": "Piti",
-        "en": "",
-        "ru": ""
+        "en": "Piti",
+        "ru": "Пити (Баку)"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1650,8 +1606,8 @@
       "id": 89,
       "name": {
         "az": "Şirəli şapalaq",
-        "en": "",
-        "ru": ""
+        "en": "Juicy Shapalak",
+        "ru": "Тушёный Щапалак"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1667,8 +1623,8 @@
       "id": 90,
       "name": {
         "az": "Xaş",
-        "en": "",
-        "ru": ""
+        "en": "Khash",
+        "ru": "Хащ"
       },
       "category": {
         "az": "Qazan Yeməkləri",
@@ -1683,9 +1639,9 @@
     {
       "id": 91,
       "name": {
-        "az": "Quzu lülə",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Lülə",
+        "en": "Lamb Kebab",
+        "ru": "Баранья Луле"
       },
       "category": {
         "az": "Kabablar",
@@ -1700,9 +1656,9 @@
     {
       "id": 92,
       "name": {
-        "az": "Tikə kabab",
-        "en": "",
-        "ru": ""
+        "az": "Tikə Kabab",
+        "en": "Skewered Kebab",
+        "ru": "Тикэ Кебаб"
       },
       "category": {
         "az": "Kabablar",
@@ -1717,9 +1673,9 @@
     {
       "id": 93,
       "name": {
-        "az": "Quzu antrikot",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Antrikot",
+        "en": "Lamb Ribeye",
+        "ru": "Баранья Антрекот"
       },
       "category": {
         "az": "Kabablar",
@@ -1734,9 +1690,9 @@
     {
       "id": 94,
       "name": {
-        "az": "Quzu basdırma",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Basdırma",
+        "en": "Lamb Stifado",
+        "ru": "Баранья басдырма"
       },
       "category": {
         "az": "Kabablar",
@@ -1751,9 +1707,9 @@
     {
       "id": 95,
       "name": {
-        "az": "Dana basdırma",
-        "en": "",
-        "ru": ""
+        "az": "Dana Basdırma",
+        "en": "Beef Stifado",
+        "ru": "Говядина басдырма"
       },
       "category": {
         "az": "Kabablar",
@@ -1768,9 +1724,9 @@
     {
       "id": 96,
       "name": {
-        "az": "Tikə qırçın",
-        "en": "",
-        "ru": ""
+        "az": "Tikə Qırçın",
+        "en": "Skewered Quail",
+        "ru": "Тикэ Кырчын"
       },
       "category": {
         "az": "Kabablar",
@@ -1785,9 +1741,9 @@
     {
       "id": 97,
       "name": {
-        "az": "Toyuq kababı",
-        "en": "",
-        "ru": ""
+        "az": "Toyuq Kababı",
+        "en": "Chicken Kebab",
+        "ru": "Кебаб из Курицы"
       },
       "category": {
         "az": "Kabablar",
@@ -1803,8 +1759,8 @@
       "id": 98,
       "name": {
         "az": "Quzu içalat",
-        "en": "",
-        "ru": ""
+        "en": "Lamb Offal",
+        "ru": "Бараний Потрох"
       },
       "category": {
         "az": "Kabablar",
@@ -1819,9 +1775,9 @@
     {
       "id": 99,
       "name": {
-        "az": "Quyruq kababı",
-        "en": "",
-        "ru": ""
+        "az": "Quyruq Kababı",
+        "en": "Tail Kebab",
+        "ru": "Кебаб с Хвостом"
       },
       "category": {
         "az": "Kabablar",
@@ -1836,9 +1792,9 @@
     {
       "id": 100,
       "name": {
-        "az": "Ciyər quyruq",
-        "en": "",
-        "ru": ""
+        "az": "Ciyər Quyruq",
+        "en": "Liver Tail",
+        "ru": "Печень с Хвостиком"
       },
       "category": {
         "az": "Kabablar",
@@ -1853,9 +1809,9 @@
     {
       "id": 101,
       "name": {
-        "az": "Sac can əti",
-        "en": "",
-        "ru": ""
+        "az": "Sac Can Əti",
+        "en": "Saj Beef",
+        "ru": "Говядина на Сковороде"
       },
       "category": {
         "az": "Sac Yeməkləri",
@@ -1876,14 +1832,14 @@
         "en": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 services"
             }
           ]
         },
         "ru": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 человека"
             }
           ]
         }
@@ -1892,9 +1848,9 @@
     {
       "id": 102,
       "name": {
-        "az": "Sac quzu əti",
-        "en": "",
-        "ru": ""
+        "az": "Sac Quzu Əti",
+        "en": "Saj Lamb",
+        "ru": "Баранина на Сковороде"
       },
       "category": {
         "az": "Sac Yeməkləri",
@@ -1915,14 +1871,14 @@
         "en": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 services"
             }
           ]
         },
         "ru": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 человека"
             }
           ]
         }
@@ -1931,9 +1887,9 @@
     {
       "id": 103,
       "name": {
-        "az": "Sac quzu içalat",
-        "en": "",
-        "ru": ""
+        "az": "Sac Quzu içalat",
+        "en": "Saj Lamb Offal",
+        "ru": "Баранина на Сковороде с Потрохами"
       },
       "category": {
         "az": "Sac Yeməkləri",
@@ -1954,14 +1910,14 @@
         "en": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 services"
             }
           ]
         },
         "ru": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 человека"
             }
           ]
         }
@@ -1970,9 +1926,9 @@
     {
       "id": 104,
       "name": {
-        "az": "Sac kənd çolpası",
-        "en": "",
-        "ru": ""
+        "az": "Sac Kənd Çolpası",
+        "en": "Saj Village Chicken",
+        "ru": "Крестьянская Каша на Сковороде"
       },
       "category": {
         "az": "Sac Yeməkləri",
@@ -1993,14 +1949,14 @@
         "en": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 services"
             }
           ]
         },
         "ru": {
           "description": [
             {
-              "content": "2-4 nəfərlik"
+              "content": "2-4 человека"
             }
           ]
         }
@@ -2009,9 +1965,9 @@
     {
       "id": 105,
       "name": {
-        "az": "Quzu səbət",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Səbət",
+        "en": "Lamb Basket",
+        "ru": "Бараний Корзина"
       },
       "category": {
         "az": "Təndir Yeməkləri",
@@ -2026,9 +1982,9 @@
     {
       "id": 106,
       "name": {
-        "az": "Şapalaq təndir",
-        "en": "",
-        "ru": ""
+        "az": "Şapalaq Təndir",
+        "en": "Shapalak Tandoor",
+        "ru": "Шапалак Тандыр"
       },
       "category": {
         "az": "Təndir Yeməkləri",
@@ -2043,9 +1999,9 @@
     {
       "id": 107,
       "name": {
-        "az": "Çolpa təndir",
-        "en": "",
-        "ru": ""
+        "az": "Çolpa Təndir",
+        "en": "Tandoor Roasted Chicken",
+        "ru": "Чолпа Тандыр"
       },
       "category": {
         "az": "Təndir Yeməkləri",
@@ -2060,9 +2016,9 @@
     {
       "id": 108,
       "name": {
-        "az": "Quzu maça təndir",
-        "en": "",
-        "ru": ""
+        "az": "Quzu Maça Təndir",
+        "en": "Lamb Machi Tandoor",
+        "ru": "Баранина на Мангале"
       },
       "category": {
         "az": "Təndir Yeməkləri",
@@ -2077,9 +2033,9 @@
     {
       "id": 109,
       "name": {
-        "az": "Ev sayağı kartof qızartması",
-        "en": "",
-        "ru": ""
+        "az": "Ev Sayağı Kartof Qızartması",
+        "en": "Homestyle Potatoes",
+        "ru": "Картофель По-Домашнему"
       },
       "category": {
         "az": "Qarnir",
@@ -2094,9 +2050,9 @@
     {
       "id": 110,
       "name": {
-        "az": "Düyü plovu",
-        "en": "",
-        "ru": ""
+        "az": "Düyü Plovu",
+        "en": "Rice",
+        "ru": "Рис"
       },
       "category": {
         "az": "Qarnir",
@@ -2112,8 +2068,8 @@
       "id": 111,
       "name": {
         "az": "Qarabaşaq",
-        "en": "",
-        "ru": ""
+        "en": "Bucwheat",
+        "ru": "Перловка"
       },
       "category": {
         "az": "Qarnir",
@@ -2128,9 +2084,9 @@
     {
       "id": 112,
       "name": {
-        "az": "Kartof püre",
-        "en": "",
-        "ru": ""
+        "az": "Kartof Püre",
+        "en": "Mashed Potatoes",
+        "ru": "Картофельное Пюре"
       },
       "category": {
         "az": "Qarnir",
@@ -2145,9 +2101,9 @@
     {
       "id": 113,
       "name": {
-        "az": "Kartof fri",
-        "en": "",
-        "ru": ""
+        "az": "Kartof Fri",
+        "en": "French Fries",
+        "ru": "Картофель Фри"
       },
       "category": {
         "az": "Qarnir",
@@ -2162,9 +2118,9 @@
     {
       "id": 114,
       "name": {
-        "az": "Nuggets",
-        "en": "",
-        "ru": ""
+        "az": "Nagets",
+        "en": "Nuggets",
+        "ru": "Наггетсы"
       },
       "category": {
         "az": "Qarnir",
@@ -2179,9 +2135,9 @@
     {
       "id": 115,
       "name": {
-        "az": "Toyuq budu",
-        "en": "",
-        "ru": ""
+        "az": "Toyuq Budu",
+        "en": "Chicken Thigh",
+        "ru": "Куриные бедра"
       },
       "category": {
         "az": "Qarnir",
@@ -2196,9 +2152,9 @@
     {
       "id": 116,
       "name": {
-        "az": "Şah plov (Böyük)",
-        "en": "",
-        "ru": ""
+        "az": "Şah Plov (Böyük)",
+        "en": "Shah Rice (Big)",
+        "ru": "Плов Шах (большой)"
       },
       "category": {
         "az": "Plovlar",
@@ -2213,9 +2169,9 @@
     {
       "id": 117,
       "name": {
-        "az": "Şah plov (Kiçik)",
-        "en": "",
-        "ru": ""
+        "az": "Şah Plov (Kiçik)",
+        "en": "Shah Rice (Small)",
+        "ru": "Плов Шах (маленький)"
       },
       "category": {
         "az": "Plovlar",
@@ -2230,9 +2186,9 @@
     {
       "id": 118,
       "name": {
-        "az": "Şüyüdlü plov (maça ilə)",
-        "en": "",
-        "ru": ""
+        "az": "Şüyüdlü Olov (Maça ilə)",
+        "en": "Dill Rice (with Matcha)",
+        "ru": "Плов с Укропом (с Матча)"
       },
       "category": {
         "az": "Plovlar",
@@ -2247,9 +2203,9 @@
     {
       "id": 119,
       "name": {
-        "az": "Turşu qovurma plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Turşu Qovurma Plov (1 porsiya)",
+        "en": "Pickled Meat Rice (1 serving)",
+        "ru": "Плов с Маринованным Мясом (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2264,9 +2220,9 @@
     {
       "id": 120,
       "name": {
-        "az": "Səbzi plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Səbzi Plov (1 porsiya)",
+        "en": "Herb Rice (1 serving)",
+        "ru": "Овощной Плов (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2281,9 +2237,9 @@
     {
       "id": 121,
       "name": {
-        "az": "Şuşa plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Şuşa Plov (1 porsiya)",
+        "en": "Shusha Plov (1 serving)",
+        "ru": "Плов Шуша (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2298,9 +2254,9 @@
     {
       "id": 122,
       "name": {
-        "az": "Fisincan plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Fisincan Plov (1 porsiya)",
+        "en": "Fisinjan Plov (1 serving)",
+        "ru": "Плов Фисинджан (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2315,9 +2271,9 @@
     {
       "id": 123,
       "name": {
-        "az": "Çığırtma plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Çığırtma Plov (1 porsiya)",
+        "en": "Chygyrtma Rice (1 serving)",
+        "ru": "Плов Чигыртма (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2332,9 +2288,9 @@
     {
       "id": 124,
       "name": {
-        "az": "Gilənar plov (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "az": "Gilənar Plov (1 porsiya)",
+        "en": "Pomegranate Rice (1 serving)",
+        "ru": "Плов Гиланар (1 порция)"
       },
       "category": {
         "az": "Plovlar",
@@ -2349,9 +2305,9 @@
     {
       "id": 125,
       "name": {
-        "az": "Nar şirəsi (1lt)",
-        "en": "",
-        "ru": ""
+        "az": "Nar Şirəsi (1lt)",
+        "en": "Pomegranate Juice (1lt)",
+        "ru": "Гранатовый сок (1л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2366,9 +2322,9 @@
     {
       "id": 126,
       "name": {
-        "az": "Ev sayağı kompot (reyhan)",
-        "en": "",
-        "ru": ""
+        "az": "Ev Sayağı Kompot (Reyhan)",
+        "en": "Homemade Basil Compote",
+        "ru": "Домашний компот (базилик)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2383,9 +2339,9 @@
     {
       "id": 127,
       "name": {
-        "az": "Ev sayağı kompot (tərxun)",
-        "en": "",
-        "ru": ""
+        "az": "Ev Sayağı Kompot (Tərxun)",
+        "en": "Homemade Targoon Compote",
+        "ru": "Домашний компот (Эстрагон)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2400,9 +2356,9 @@
     {
       "id": 128,
       "name": {
-        "az": "Bağdan kompot (1lt)",
-        "en": "",
-        "ru": ""
+        "az": "Bağdan Kompot (1lt)",
+        "en": "Fruit Compote (1lt)",
+        "ru": "Компот из Сада (1л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2418,8 +2374,8 @@
       "id": 129,
       "name": {
         "az": "Limonad duşes (0.5lt)",
-        "en": "https://monyo.az/v4/uploads2/uploads2026-07/large/i_202607011806072124939019.jpg",
-        "ru": ""
+        "en": "Dushes Lemonade (0.5lt)",
+        "ru": "Лимонад Душес (0.5л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2434,9 +2390,9 @@
     {
       "id": 130,
       "name": {
-        "az": "Limonad tərxun (0.5lt)",
-        "en": "",
-        "ru": ""
+        "az": "Limonad Tərxun (0.5lt)",
+        "en": "Tarragon Lemonade (0.5lt)",
+        "ru": "Лимонад с эстрагон (0.5л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2451,9 +2407,9 @@
     {
       "id": 131,
       "name": {
-        "az": "Meyvə şirəsi",
-        "en": "",
-        "ru": ""
+        "az": "Meyvə Şirəsi",
+        "en": "Fruit Juice",
+        "ru": "Фруктовый Сок"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2469,8 +2425,8 @@
       "id": 132,
       "name": {
         "az": "Cola (0.33lt)",
-        "en": "",
-        "ru": ""
+        "en": "Cola (0.33lt)",
+        "ru": "Кола (0.33л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2486,8 +2442,8 @@
       "id": 133,
       "name": {
         "az": "Fanta (0.33lt)",
-        "en": "",
-        "ru": ""
+        "en": "Fanta (0.33lt)",
+        "ru": "Фанта (0.33л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2503,8 +2459,8 @@
       "id": 134,
       "name": {
         "az": "Sprite (0.33lt)",
-        "en": "",
-        "ru": ""
+        "en": "Sprite (0.33lt)",
+        "ru": "Спрайт (0.33л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2519,9 +2475,9 @@
     {
       "id": 135,
       "name": {
-        "az": "Sirab qazlı (0.5lt)",
-        "en": "",
-        "ru": ""
+        "az": "Sirab Qazlı (0.5lt)",
+        "en": "Sirab Sparkling (0.5lt)",
+        "ru": "Газированная Сироб (0.55л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2536,9 +2492,9 @@
     {
       "id": 136,
       "name": {
-        "az": "Sirab qazsız (0.5lt)",
-        "en": "",
-        "ru": ""
+        "az": "Sirab Qazsız (0.5lt)",
+        "en": "Sirab Still (0.5lt)",
+        "ru": "Без газа Сироб (0.55л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2554,8 +2510,8 @@
       "id": 137,
       "name": {
         "az": "İstisu (Kəlbəcər)",
-        "en": "",
-        "ru": ""
+        "en": "Hot Spring Water (Kalbajar)",
+        "ru": "Истису (Кельбаджар)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2571,8 +2527,8 @@
       "id": 138,
       "name": {
         "az": "Sarıkız",
-        "en": "",
-        "ru": ""
+        "en": "Sarıkız",
+        "ru": "Сарыкыз"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2588,8 +2544,8 @@
       "id": 139,
       "name": {
         "az": "Redbull (0.33lt)",
-        "en": "",
-        "ru": ""
+        "en": "Redbull (0.33lt)",
+        "ru": "Ред Булл (0.33л)"
       },
       "category": {
         "az": "Sərinləşdirici İçkilər",
@@ -2604,9 +2560,9 @@
     {
       "id": 140,
       "name": {
-        "az": "Çay dəstgahı",
-        "en": "",
-        "ru": ""
+        "az": "Çay Dəstgahı",
+        "en": "Tea Set",
+        "ru": "Чайный Набор"
       },
       "category": {
         "az": "İsti İçkilər",
@@ -2622,8 +2578,8 @@
       "id": 141,
       "name": {
         "az": "Samovar",
-        "en": "",
-        "ru": ""
+        "en": "Samovar",
+        "ru": "Самовар"
       },
       "category": {
         "az": "İsti İçkilər",
@@ -2638,9 +2594,9 @@
     {
       "id": 142,
       "name": {
-        "az": "Çay sadə",
-        "en": "",
-        "ru": ""
+        "az": "Çay Sadə",
+        "en": "Simple Tea",
+        "ru": "Простой чай"
       },
       "category": {
         "az": "İsti İçkilər",
@@ -2656,8 +2612,8 @@
       "id": 143,
       "name": {
         "az": "Kofe",
-        "en": "",
-        "ru": ""
+        "en": "Coffee",
+        "ru": "Кофе"
       },
       "category": {
         "az": "İsti İçkilər",
@@ -2672,9 +2628,9 @@
     {
       "id": 144,
       "name": {
-        "az": "Mürəbbə çeşidləri",
-        "en": "",
-        "ru": ""
+        "az": "Mürəbbə Çeşidləri",
+        "en": "Jam Varieties",
+        "ru": "Ассорти Варенья"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2704,32 +2660,32 @@
          "en" : {
           "description" : [
             {
-              "content" : "ağ gilas"
+              "content" : "white cherry"
             },
             {
-              "content" : "çiyələk"
+              "content" : "strawberry"
             },
             {
-              "content" : "qoz"
+              "content" : "walnut"
             },
             {
-              "content" : "albalı"
+              "content" : "sour cherry"
             }
           ]
         },
          "ru" : {
           "description" : [
             {
-              "content" : "ağ gilas"
+              "content" : "белая черешня"
             },
             {
-              "content" : "çiyələk"
+              "content" : "клубника"
             },
             {
-              "content" : "qoz"
+              "content" : "грецкий орех"
             },
             {
-              "content" : "albalı"
+              "content" : "вишня"
             }
           ]
         }
@@ -2738,9 +2694,9 @@
     {
       "id": 145,
       "name": {
-        "az": "Paxlava çeşidləri (milli)",
-        "en": "",
-        "ru": ""
+        "az": "Paxlava Çeşidləri (Milli)",
+        "en": "Baklava Varieties (National)",
+        "ru": "Ассорти Пахлавы (Национальная)"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2755,9 +2711,9 @@
     {
       "id": 146,
       "name": {
-        "az": "Paxlava çeşidləri (türk)",
-        "en": "",
-        "ru": ""
+        "az": "Paxlava Çeşidləri (Türk)",
+        "en": "Baklava Varieties (Turkish)",
+        "ru": "Ассорти пахлавы (Турецкая)"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2772,9 +2728,9 @@
     {
       "id": 147,
       "name": {
-        "az": "Kabak tatlısı",
-        "en": "",
-        "ru": ""
+        "az": "Kabak Tatlısı",
+        "en": "Pumpkin Dessert",
+        "ru": "Тыквенное Лакомство"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2789,9 +2745,9 @@
     {
       "id": 148,
       "name": {
-        "az": "Heyva tatlısı",
-        "en": "",
-        "ru": ""
+        "az": "Heyva Tatlısı",
+        "en": "Quince Dessert",
+        "ru": "Айвовое Лакомство"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2807,8 +2763,8 @@
       "id": 149,
       "name": {
         "az": "Sütlac",
-        "en": "",
-        "ru": ""
+        "en": "Rice Pudding",
+        "ru": "Сутлач"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2824,8 +2780,8 @@
       "id": 150,
       "name": {
         "az": "Dondurma",
-        "en": "",
-        "ru": ""
+        "en": "İceCream",
+        "ru": "Мороженое"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2840,9 +2796,9 @@
     {
       "id": 151,
       "name": {
-        "az": "Meyvə çeşidləri (mövsümi)",
-        "en": "",
-        "ru": ""
+        "az": "Meyvə Çeşidləri (Mövsümi)",
+        "en": "Fruit Varieties (Seasonal)",
+        "ru": "Ассорти Фруктов (Сезонные)"
       },
       "category": {
         "az": "Meyvə və Desertlər",
@@ -2858,8 +2814,8 @@
       "id": 152,
       "name": {
         "az": "Meyvə (1 porsiya)",
-        "en": "",
-        "ru": ""
+        "en": "Fruit (1 serving)",
+        "ru": "Фрукты (1 порция)"
       },
       "category": {
         "az": "Meyvə və Desertlər",

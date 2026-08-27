@@ -8,31 +8,9 @@ import LinkToMenu from "../components/LinkToMenu";
 import { GiRoundStar } from "react-icons/gi";
 import ContactUs from "../components/ContactUs";
 import LanguageChanger from "../components/LanguageChanger";
-const HomeInterier = () => {
-  const langSelData = [
-    {
-      shortCase: "az",
-      countryUrl: "https://cdn-icons-png.flaticon.com/128/16021/16021914.png",
-      country: "Azərbaycanca",
-    },
-    {
-      shortCase: "en",
-      countryUrl: "https://cdn-icons-png.flaticon.com/128/8363/8363562.png",
-      country: "English",
-    },
-    {
-      shortCase: "ru",
-      countryUrl: "https://cdn-icons-png.flaticon.com/128/4628/4628645.png",
-      country: "Русский",
-    },
-  ];
- 
+const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwitcher,selectedLang,setSelectedLang}) => {
+  
   const { t, i18n } = useTranslation();
-  const [langSwitcher, setLangSwitcher] = useState(false);
-  const [selectedLang, setSelectedLang] = useState("az");
-   const filteredSelectedLang = langSelData.find(
-    (item) => item.shortCase === selectedLang,
-  );
   return (
     <>
       <Helmet>
