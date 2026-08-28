@@ -5,5 +5,8 @@
   "emptyBasket" : "Your basket is empty",
   "total" : "Total",
   "subTotal" : "Subtotal",
-  "order" : "Order Now"
+  "order" : "Order Now",
+  "searchResult" : "results found for",
+  "notFound" : "No products found",
+  "userOtherKeyWords" : "Try searching with different keywords"
 }

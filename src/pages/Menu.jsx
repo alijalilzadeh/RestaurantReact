@@ -11,6 +11,7 @@ import CartLink from "../components/CartLink";
 import Basket from "../components/Basket";
 import clickVoice from "../assets/confirmedVoice.mp3";
 import ScrollUpBtn from "../components/ScrollUpBtn";
+import SearchResult from "../components/SearchResult";
 const Menu = ({
   filteredSelectedLang,
   langSelData,
@@ -27,7 +28,8 @@ const Menu = ({
   const [totalBasket, setTotalBasket] = useState(0); //basket icindeki element saylari
   const [totalBasketPrice, setTotalBasketPrice] = useState(0); // cemi odenilecek mebleg
   const [showBtn, setShowBtn] = useState(false);
-
+  const [menuLength, setMenuLength] = useState(0);
+  console.log(menuLength)
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
@@ -55,12 +57,11 @@ const Menu = ({
         return [...prev, { ...product, count: 1 }];
       }
     });
-    // uptadeCartAmount(1);
     setTotalBasket(totalBasket + 1);
     setTotalBasketPrice(totalBasketPrice + price);
   };
 
-  const changeCount = (id, amount,price) => {
+  const changeCount = (id, amount, price) => {
     if (amount > 0) {
       setTotalBasket(totalBasket + 1);
       setTotalBasketPrice(totalBasketPrice + price);
@@ -82,13 +83,8 @@ const Menu = ({
     );
   };
 
-  // const uptadeCartAmount = (amount) => {
-  //   basketEl.map((prev) => {
-  //     setTotalBasket(totalBasket + amount);
-  //   });
-  // };
+
   const deleteItemInBasket = (index, price) => {
-    // basketden elementleri silen funksiya
     setBasketEl((prev) => prev.filter((item) => item.id != index));
     setTotalBasketPrice(totalBasketPrice - price);
   };
@@ -109,6 +105,7 @@ const Menu = ({
         </>
       )}
       <MenuNavbar
+        setMenuLength={setMenuLength}
         gridSel={gridSel}
         setGridSel={setGridSel}
         inputVal={inputVal}
@@ -124,6 +121,8 @@ const Menu = ({
         </p>
         <BsFillInfoCircleFill className="text-[#E2D8B7]" />
       </div>
+      {inputVal && <SearchResult menuLength={menuLength} inputVal={inputVal} />}
+
       {categoryData.categories
         .slice(1, 16)
         .filter((cat) =>
@@ -147,32 +146,32 @@ const Menu = ({
           return (
             <div
               key={cat.id}
-              className="flex flex-col items-center justify-center gap-8 w-full px-10 mb-15"
+              className="flex flex-col items-center justify-center gap-8 w-full  mb-15 px-5 sm:px-10"
             >
               <div className="flex flex-col items-start justify-start w-full">
-                <h2 className="mt-6 mb-4 text-[28.8px] w-full text-[#212529] font-bold">
+                <h2 className="mt-6 mb-4 text-[20px] w-full text-[#212529] font-bold sm:text-[28.8px]">
                   {cat.title[selectedLang]}
                 </h2>
                 <div
                   className={`grid ${
                     gridSel === "Grid1" ? "grid-cols-1" : "grid-cols-2"
-                  } gap-8 justify-items-center w-full`}
+                  } gap-3 justify-items-center w-full md:gap-8`}
                 >
                   {filteredProducts.map((item) => (
                     <div
                       key={item.id || item.name[selectedLang]}
-                      className="flex flex-col items-start justify-start w-full bg-white rounded-[10px] cursor-pointer transition duration-200 transform hover:-translate-y-1 overflow-hidden"
+                      className="flex flex-col items-start justify-start w-full h-auto bg-white shadow-md rounded-[10px] cursor-pointer transition duration-200 transform hover:-translate-y-1 overflow-hidden md:w-85  lg:w-full hover:shadow-lg"
                     >
                       <img
                         src={item.imageUrl}
                         alt={item.name[selectedLang]}
-                        className="w-full h-140 object-cover"
+                        className="w-full h-33.5 object-cover sm:h-64 lg:h-140"
                       />
-                      <div className="flex flex-col items-center justify-between gap-6 w-full p-4 shadow-md transition duration-200 hover:shadow-lg">
-                        <h2 className="text-[14.4px] w-full text-[#212529] font-semibold">
+                      <div className="flex flex-col items-center justify-between gap-6 w-full p-4  transition duration-200 ">
+                        <h2 className="text-[14.4px] w-full leading-4.25 text-[#212529] font-semibold">
                           {item.name[selectedLang]}
                         </h2>
-                        <div className="flex items-center justify-between w-full">
+                        <div className="flex items-center justify-between w-full mt-auto">
                           <span className="font-bold text-[16px] text-[#e2d8b7]">
                             {item.price} ₼
                           </span>

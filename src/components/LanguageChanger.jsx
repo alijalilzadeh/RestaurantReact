@@ -7,7 +7,7 @@ const LanguageChanger = ({langSwitcher, setLangSwitcher,langSelData,filteredSele
     i18n.changeLanguage(lang)
   }
   return (
-    <div className={`${langSwitcher ? " -translate-y-1/2 opacity-100 pointer-events-auto " : "opacity-0 -translate-y-3/5  pointer-events-none"} fixed top-1/2 left-1/2 -translate-x-1/2 z-25 transition-all duration-250 flex-col items-center justify-center bg-white w-125 h-auto rounded-[20px]`}>
+    <div className={`${langSwitcher ? " -translate-y-1/2 opacity-100 pointer-events-auto " : "opacity-0 -translate-y-3/5  pointer-events-none"} fixed top-1/2 left-1/2 -translate-x-1/2 z-25 transition-all duration-250 flex-col items-center justify-center bg-white w-[95vw] h-auto rounded-[20px] sm:w-125`}>
       <div className="flex items-center justify-between border-b py-4 border-b-[#dee2e6] w-full">
         <h2 className='text-[20px] font-medium text-[#212529] pl-4'>{t(`selectLanguage`)}</h2>
         <IoMdClose onClick={()=> setLangSwitcher(false)} size={26} className='mr-4 text-[#818486] transition duration-200 hover:text-[#404040] cursor-pointer'/>

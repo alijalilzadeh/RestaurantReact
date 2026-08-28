@@ -21,7 +21,7 @@ const Basket = ({
   const { t } = useTranslation();
   return (
     <div
-      className={`${basketStatus ? "translate-x-0 flex" : "translate-x-full"} transition-all duration-500  flex-col items-start justify-start bg-white z-28 fixed top-0 right-0 h-screen w-[25vw] `}
+      className={`${basketStatus ? "translate-x-0 flex" : "translate-x-full"} transition-all duration-500  flex-col items-start justify-start bg-white z-28 fixed top-0 right-0 h-screen w-screen sm:w-[50vw] lg:w-[25vw] `}
     >
       <div className="flex items-start justify-between w-full px-6 py-5 bg-[#F8F9FA] border-b border-[#e9ecef]">
         <h2 className="text-[24px] text-[#212529] font-bold">
@@ -77,7 +77,7 @@ const Basket = ({
                       <span>{item.count}</span>
                       <span
                         onClick={() => {
-                          changeCount(item.id, +1,item.price);
+                          changeCount(item.id, +1,item.pricepx-10);
                         }}
                         className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white"
                       >

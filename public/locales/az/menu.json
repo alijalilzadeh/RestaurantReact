@@ -5,5 +5,8 @@
   "emptyBasket" : "Səbətiniz boşdur",
   "total" : "Cəmi",
   "subTotal" : "Ara cəmi",
-  "order" : "Sifariş ver"
+  "order" : "Sifariş ver",
+  "searchResult" : "nəticə tapıldı",
+  "notFound" : "Məhsul tapılmadı",
+  "userOtherKeyWords" : "Fərqli açar sözlərlə axtarın"
 }

@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import { VscSearchCompact } from "react-icons/vsc";
 import { IoGridOutline } from "react-icons/io5";
 import category from "../data/categoryData.json";
+import FoodData from "../data/foodData.json";
 const MenuNavbar = ({
   gridSel,
   setGridSel,
@@ -14,6 +15,7 @@ const MenuNavbar = ({
   selectedLang,
   inputVal,
   setInputVal,
+  setMenuLength,
 }) => {
   const { t, i18n } = useTranslation();
   const [selectedCat, setSelectedCat] = useState(null);
@@ -38,13 +40,14 @@ const MenuNavbar = ({
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
   const handleTabClick = (index, event) => {
     setActiveTab(index);
 
     event.currentTarget.scrollIntoView({
-      behavior: 'smooth', // Hamar scroll animasiyası
-      inline: 'center',   // Horizonal scroll-da elementi mərkəzə gətirir
-      block: 'nearest'    // Şaquli (vertical) scroll-a təsir etmir
+      behavior: "smooth", // Hamar scroll animasiyası
+      inline: "center", // Horizonal scroll-da elementi mərkəzə gətirir
+      block: "nearest", // Şaquli (vertical) scroll-a təsir etmir
     });
   };
   return (
@@ -69,13 +72,24 @@ const MenuNavbar = ({
           <div className="flex items-center justify-center relative">
             <VscSearchCompact
               size={18}
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-[#E2DDD5]"
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-[#e2d8b7]"
             />
             <input
-              onChange={(e) => setInputVal(e.target.value)}
+              onChange={(e) => {
+                const currentValue = e.target.value; 
+                setInputVal(currentValue);
+                
+                const filteredProducts = FoodData.products.filter((item) => {
+                  return item.name[selectedLang]
+                    .toLowerCase()
+                    .includes(currentValue.toLowerCase());
+                });
+
+                setMenuLength(filteredProducts.length);
+              }}
               type="text"
               placeholder={t("menu:inputPlaceholder")}
-              className="bg-white rounded-[50px] px-10 py-3 focus:outline-[#EBE3CC] placeholder:text-[15px] placeholder:font-normal placeholder:text-[#757575]"
+              className="bg-white rounded-[50px]  focus:outline-[#EBE3CC] placeholder:text-[14px] placeholder:self-start placeholder:font-normal placeholder:text-[#757575] indent-10 lg:placeholder:text-[15px] w-36.5 h-11 sm:w-59.25 sm:h-11 lg:w-64.75 lg:h-12.5"
             />
           </div>
 

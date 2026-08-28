@@ -41,17 +41,17 @@ const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwi
             setLangSwitcher={setLangSwitcher}
             langSelData={langSelData}
           />
-          <div className="flex flex-col items-center justify-center  w-[50%] -mt-12 z-10 ">
+          <div className="flex flex-col items-center justify-center  w-full -mt-12 z-10 sm:w-[50%] ">
             <div className="w-25 h-25 border-2 border-white rounded-full overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.15)]">
               <img
                 src={restaurantLogo}
                 className="flex rounded-full overflow-hidden object-cover"
               />
             </div>
-            <h2 className="font-bold text-[28px] text-center text-[#212529]">
+            <h2 className="font-bold text-[25px] text-center text-[#212529] sm:text-[28px]">
               {t(`restaurantName`)}
             </h2>
-            <p className="text-[16px] font-normal text-[#908e8e] text-center my-1">
+            <p className="text-[14.4px] font-normal text-[#908e8e] text-center my-0 sm:my-1 sm:text-[16px]">
               {t(`welcomeDescription`)}
             </p>
             <div className="flex flex-col items-center justify-center w-full gap-3 my-3">
