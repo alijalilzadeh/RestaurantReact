@@ -3,6 +3,8 @@ import { useTranslation } from "react-i18next";
 import { IoClose } from "react-icons/io5";
 import { BsBasket2 } from "react-icons/bs";
 import { BsTrash } from "react-icons/bs";
+import { FaMinus } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa";
 const Basket = ({
   basketStatus,
   setBasketStatus,
@@ -13,11 +15,12 @@ const Basket = ({
   totalBasketPrice,
   setTotalBasketPrice,
   selectedLang,
+  deleteItemInBasket,
 }) => {
   const { t } = useTranslation();
   return (
     <div
-      className={`${basketStatus ? "translate-x-0 flex" : "translate-x-full"} transition-all duration-500  flex-col items-start justify-between bg-white z-28 fixed top-0 right-0 h-screen w-[25vw] `}
+      className={`${basketStatus ? "translate-x-0 flex" : "translate-x-full"} transition-all duration-500  flex-col items-start justify-start bg-white z-28 fixed top-0 right-0 h-screen w-[25vw] `}
     >
       <div className="flex items-start justify-between w-full px-6 py-5 bg-[#F8F9FA] border-b border-[#e9ecef]">
         <h2 className="text-[24px] text-[#212529] font-bold">
@@ -43,30 +46,47 @@ const Basket = ({
         </div>
       ) : (
         <div className="flex flex-col items-start justify-start w-full gap-2 p-4 overflow-y-auto">
-          {basketEl.map((item, id) => (
+          {basketEl.map((item, index) => (
             <div
-              key={id}
-              className="flex items-start justify-between p-4 border-b rounded-lg border-b-[#e9ecef] w-full transition duration-200 hover:bg-[#F8F9FA]"
+              key={index}
+              className="flex items-start justify-start p-4 border-b rounded-lg border-b-[#e9ecef] w-full transition duration-200 hover:bg-[#F8F9FA]"
             >
-              <div className="flex items-start justify-start gap-4 w-full">
+              <div className="flex items-start justify-start gap-2 w-full">
                 <img
                   src={item.imageUrl}
-                  className="w-17 h-17 rounded-lg flex object-cover self-center"
+                  className="w-17 h-17 rounded-lg flex self-center"
                 />
-                <div className="flex flex-col items-start justify-start w-full">
-                  <h2 className="text-[16.8px] font-semibold text-[#212529]">
-                    {item.name[selectedLang]}
-                  </h2>
-                  <span className="font-bold text-[17.6px] text-[#e2d8b7]">
-                    {item.price} ₼
-                  </span>
-                </div>
-                <div className="flex items-center justify-center relative group">
-                  <span className="bg-[#F2D2D6] w-9 h-9 rounded-full z-1 absolute -top-1/2 transition duration-200 transform scale-0 group-hover:scale-105"></span>
-                  <BsTrash
-                    size={19}
-                    className="flex items-center justify-center self-center z-10 text-[#DC3545] cursor-pointer transition duration-200 transform  group-hover:scale-110"
-                  />
+                <div className="flex items-center justify-between w-full">
+                  <div className="flex flex-col items-start justify-between w-full">
+                    <h2 className="text-[16.8px] font-semibold text-[#212529]">
+                      {item.name[selectedLang]}
+                    </h2>
+                    <span className="font-bold text-[17.6px] text-[#e2d8b7]">
+                      {item.price} ₼
+                    </span>
+                    <div className="flex items-center justify-between w-1/2 bg-[#F8F9FA] mt-2 rounded-[30px] p-0.75">
+                      <span className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white">
+                        <FaMinus size={10} />
+                      </span>
+                      <span>1</span>
+                      <span className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white">
+                        <FaPlus size={10} />
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    onClick={() => {
+                      deleteItemInBasket(item.id, item.price);
+                      setTotalBasket(basketEl.length - 1);
+                    }}
+                    className="flex items-center justify-center relative group"
+                  >
+                    <span className="bg-[#F2D2D6] w-9 h-9 rounded-full z-1 absolute -top-1/2 transition duration-200 transform scale-0 group-hover:scale-105"></span>
+                    <BsTrash
+                      size={19}
+                      className="flex items-center justify-center z-10 text-[#DC3545] cursor-pointer transition duration-200 transform group-hover:scale-110"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -74,7 +94,7 @@ const Basket = ({
         </div>
       )}
 
-      <div className="flex flex-col items-start justify-start w-full p-6  bg-[#F8F9FA] border-t border-[#e9ecef]">
+      <div className="flex flex-col items-start justify-start w-full p-6 mt-auto  bg-[#F8F9FA] border-t border-[#e9ecef] ">
         <div className="flex items-center justify-between w-full pb-3 border-b border-[#e9ecef]">
           <h2 className="text-[#495057] text-[16px] font-medium">
             {t(`menu:subTotal`)}

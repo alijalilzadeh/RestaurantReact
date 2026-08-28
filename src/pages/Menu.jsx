@@ -10,6 +10,7 @@ import { CgMathPlus } from "react-icons/cg";
 import CartLink from "../components/CartLink";
 import Basket from "../components/Basket";
 import clickVoice from "../assets/confirmedVoice.mp3";
+import ScrollUpBtn from "../components/ScrollUpBtn";
 const Menu = ({
   filteredSelectedLang,
   langSelData,
@@ -24,17 +25,43 @@ const Menu = ({
   const [basketStatus, setBasketStatus] = useState(false); // basketin aciq olub-olmamasinin yoxlayan
   const [basketEl, setBasketEl] = useState([]); // basket icine elave edilen elementleri saxlayan array
   const [totalBasket, setTotalBasket] = useState(0); //basket icindeki element saylari
-  const [totalBasketPrice, setTotalBasketPrice] = useState(0);
-  const addItemToBasket = (item) => {
+  const [totalBasketPrice, setTotalBasketPrice] = useState(0); // cemi odenilecek mebleg
+  const [showBtn, setShowBtn] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setShowBtn(true);
+      } else {
+        setShowBtn(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  const addItemToBasket = (item,id,price) => {
+    //baskete element elave eden funksiya
     setBasketEl((prev) => [...prev, item]);
+    setTotalBasketPrice(totalBasketPrice + price);
   };
-  console.log(basketEl);
-  const playVoice = () => {
-    const audio = new Audio(clickVoice);
-    audio.play().catch((error) => {
-      console.error("Playback failed:", error);
-    });
+  const deleteItemInBasket = (index,price) => {
+    // basketden elementleri silen funksiya
+    setBasketEl((prev) => prev.filter((item) => item.id != index));
+    setTotalBasketPrice(totalBasketPrice - price )
   };
+  const calculateBasketPrice = () => {
+    //basket price-ni hesablayan funksiya
+    
+    }
+  // const clickAudio = new Audio(clickVoice);
+
+  // const playVoice = () => {
+  //   clickAudio.currentTime = 0;
+  //   clickAudio.play().catch((error) => {
+  //     console.error("Playback failed:", error);
+  //   });
+  // };
   return (
     <div className="flex flex-col w-full items-center justify-center overflow-x-hidden relative">
       {langSwitcher && (
@@ -120,12 +147,9 @@ const Menu = ({
                           </span>
                           <span
                             onClick={() => {
-                              setTotalBasketPrice(
-                                totalBasketPrice + item.price,
-                              );
                               setTotalBasket(totalBasket + 1);
-                              addItemToBasket(item);
-                              playVoice;
+                              addItemToBasket(item,item.id,item.price);
+                              // playVoice();
                             }}
                             className="w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 hover:bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))]"
                           >
@@ -165,9 +189,11 @@ const Menu = ({
             totalBasketPrice={totalBasketPrice}
             setTotalBasketPrice={setTotalBasketPrice}
             selectedLang={selectedLang}
+            deleteItemInBasket={deleteItemInBasket}
           />
         </>
       )}
+      {showBtn && <ScrollUpBtn />}
     </div>
   );
 };
