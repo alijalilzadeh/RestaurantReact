@@ -40,28 +40,59 @@ const Menu = ({
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  const addItemToBasket = (item,id,price) => {
-    //baskete element elave eden funksiya
-    setBasketEl((prev) => [...prev, item]);
+
+  const addToBasket = (product, price) => {
+    setBasketEl((prev) => {
+      const foundingProduct = prev.find((item) => item.id === product.id);
+
+      if (foundingProduct) {
+        return prev.map((item) => {
+          return item.id === product.id
+            ? { ...item, count: item.count + 1 }
+            : item;
+        });
+      } else {
+        return [...prev, { ...product, count: 1 }];
+      }
+    });
+    // uptadeCartAmount(1);
+    setTotalBasket(totalBasket + 1);
     setTotalBasketPrice(totalBasketPrice + price);
   };
-  const deleteItemInBasket = (index,price) => {
-    // basketden elementleri silen funksiya
-    setBasketEl((prev) => prev.filter((item) => item.id != index));
-    setTotalBasketPrice(totalBasketPrice - price )
-  };
-  const calculateBasketPrice = () => {
-    //basket price-ni hesablayan funksiya
-    
-    }
-  // const clickAudio = new Audio(clickVoice);
 
-  // const playVoice = () => {
-  //   clickAudio.currentTime = 0;
-  //   clickAudio.play().catch((error) => {
-  //     console.error("Playback failed:", error);
+  const changeCount = (id, amount,price) => {
+    if (amount > 0) {
+      setTotalBasket(totalBasket + 1);
+      setTotalBasketPrice(totalBasketPrice + price);
+    } else {
+      setTotalBasket(totalBasket - 1);
+      setTotalBasketPrice(totalBasketPrice - price);
+    }
+    setBasketEl((prevBasket) =>
+      prevBasket
+        .map((item) => {
+          if (item.id === id) {
+            const newCount = item.count + amount;
+
+            return newCount > 0 ? { ...item, count: newCount } : null;
+          }
+          return item;
+        })
+        .filter(Boolean),
+    );
+  };
+
+  // const uptadeCartAmount = (amount) => {
+  //   basketEl.map((prev) => {
+  //     setTotalBasket(totalBasket + amount);
   //   });
   // };
+  const deleteItemInBasket = (index, price) => {
+    // basketden elementleri silen funksiya
+    setBasketEl((prev) => prev.filter((item) => item.id != index));
+    setTotalBasketPrice(totalBasketPrice - price);
+  };
+
   return (
     <div className="flex flex-col w-full items-center justify-center overflow-x-hidden relative">
       {langSwitcher && (
@@ -147,8 +178,7 @@ const Menu = ({
                           </span>
                           <span
                             onClick={() => {
-                              setTotalBasket(totalBasket + 1);
-                              addItemToBasket(item,item.id,item.price);
+                              addToBasket(item, item.price);
                               // playVoice();
                             }}
                             className="w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 hover:bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))]"
@@ -180,6 +210,7 @@ const Menu = ({
         <>
           <div className="fixed inset-0 bg-black/50 z-25"></div>
           <Basket
+            changeCount={changeCount}
             basketEl={basketEl}
             setBasketEl={setBasketEl}
             basketStatus={basketStatus}

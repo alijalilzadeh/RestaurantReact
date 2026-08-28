@@ -16,6 +16,7 @@ const Basket = ({
   setTotalBasketPrice,
   selectedLang,
   deleteItemInBasket,
+  changeCount,
 }) => {
   const { t } = useTranslation();
   return (
@@ -53,8 +54,8 @@ const Basket = ({
             >
               <div className="flex items-start justify-start gap-2 w-full">
                 <img
-                  src={item.imageUrl}
-                  className="w-17 h-17 rounded-lg flex self-center"
+                  src={item?.imageUrl}
+                  className="w-17 h-17 rounded-lg object-cover self-center"
                 />
                 <div className="flex items-center justify-between w-full">
                   <div className="flex flex-col items-start justify-between w-full">
@@ -62,21 +63,31 @@ const Basket = ({
                       {item.name[selectedLang]}
                     </h2>
                     <span className="font-bold text-[17.6px] text-[#e2d8b7]">
-                      {item.price} ₼
+                      {item.price*item.count} ₼
                     </span>
                     <div className="flex items-center justify-between w-1/2 bg-[#F8F9FA] mt-2 rounded-[30px] p-0.75">
-                      <span className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white">
+                      <span
+                        onClick={() => {
+                          changeCount(item.id, -1,item.price);
+                        }}
+                        className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white"
+                      >
                         <FaMinus size={10} />
                       </span>
-                      <span>1</span>
-                      <span className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white">
+                      <span>{item.count}</span>
+                      <span
+                        onClick={() => {
+                          changeCount(item.id, +1,item.price);
+                        }}
+                        className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white"
+                      >
                         <FaPlus size={10} />
                       </span>
                     </div>
                   </div>
                   <div
                     onClick={() => {
-                      deleteItemInBasket(item.id, item.price);
+                      deleteItemInBasket(item.id, item.price*item.count);
                       setTotalBasket(basketEl.length - 1);
                     }}
                     className="flex items-center justify-center relative group"
