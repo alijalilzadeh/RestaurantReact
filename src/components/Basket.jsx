@@ -77,7 +77,7 @@ const Basket = ({
                       <span>{item.count}</span>
                       <span
                         onClick={() => {
-                          changeCount(item.id, +1,item.pricepx-10);
+                          changeCount(item.id, +1,item.price);
                         }}
                         className="w-7 h-7 rounded-full flex items-center cursor-pointer justify-center self-center text-[15px] text-[#141414] border bg-white border-[#dee2e6] transition duration-200 hover:bg-[#E2D8B7] hover:text-white"
                       >
