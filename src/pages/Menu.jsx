@@ -7,6 +7,7 @@ import { useTranslation } from "react-i18next";
 import LanguageChanger from "../components/LanguageChanger";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import { CgMathPlus } from "react-icons/cg";
+import { FaCheck } from "react-icons/fa6";
 import CartLink from "../components/CartLink";
 import Basket from "../components/Basket";
 import clickVoice from "../assets/confirmedVoice.mp3";
@@ -30,7 +31,15 @@ const Menu = ({
   const [totalBasket, setTotalBasket] = useState(0); //basket icindeki element saylari
   const [totalBasketPrice, setTotalBasketPrice] = useState(0); // cemi odenilecek mebleg
   const [showBtn, setShowBtn] = useState(false);
+  const [confirm, setConfirm] = useState();
   const [menuLength, setMenuLength] = useState(0);
+  const handleConfirm = (id) => {
+    setConfirm(id);
+
+    setTimeout(() => {
+      setConfirm();
+    }, 1000);
+  };
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 80) {
@@ -180,7 +189,7 @@ const Menu = ({
                       <img
                         src={item.imageUrl}
                         alt={item.name["az"]}
-                        className={`w-full ${gridSel === 'Grid1' ? "h-70" : "h-33.5"} object-cover sm:h-64 lg:h-140`}
+                        className={`w-full ${gridSel === "Grid1" ? "h-70" : "h-33.5"} object-cover sm:h-64 lg:h-140`}
                       />
                       <div className="flex flex-col items-center justify-between gap-6 w-full p-4  transition duration-200 ">
                         <h2 className="text-[14.4px] w-full leading-4.25 text-[#212529] font-semibold">
@@ -190,18 +199,31 @@ const Menu = ({
                           <span className="font-bold text-[16px] text-[#e2d8b7]">
                             {item.price} ₼
                           </span>
-                          <span
-                            onClick={() => {
-                              addToBasket(item, item.price);
-                              // playVoice();
-                            }}
-                            className="w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 hover:bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))]"
-                          >
-                            <CgMathPlus
-                              size={17}
-                              className="text-white transition duration-200 transform group-hover:rotate-22"
-                            />
-                          </span>
+
+                          {confirm && item.id === confirm ? (
+                            <span
+                              onClick={() => {
+                                addToBasket(item, item.price);
+                                handleConfirm();
+                              }}
+                              className="w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))]"
+                            >
+                              <FaCheck className="text-white" />
+                            </span>
+                          ) : (
+                            <span
+                              onClick={() => {
+                                addToBasket(item, item.price);
+                                handleConfirm(item.id);
+                              }}
+                              className={`w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 hover:bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))] `}
+                            >
+                              <CgMathPlus
+                                size={17}
+                                className="text-white transition duration-200 transform group-hover:rotate-22"
+                              />
+                            </span>
+                          )}
                         </div>
                       </div>
                     </div>
