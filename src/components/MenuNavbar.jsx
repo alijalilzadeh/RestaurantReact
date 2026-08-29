@@ -16,11 +16,20 @@ const MenuNavbar = ({
   inputVal,
   setInputVal,
   setMenuLength,
+  setSelectedCat,
+  selectedCat,
+  categoryRefs,
 }) => {
   const { t, i18n } = useTranslation();
-  const [selectedCat, setSelectedCat] = useState(null);
   const [scrollDirection, setScrollDirection] = useState(null);
   const [scrollDown, setScrollDown] = useState();
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   useEffect(() => {
     let lastScrollY = window.scrollY;
 
@@ -41,15 +50,6 @@ const MenuNavbar = ({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleTabClick = (index, event) => {
-    setActiveTab(index);
-
-    event.currentTarget.scrollIntoView({
-      behavior: "smooth", // Hamar scroll animasiyası
-      inline: "center", // Horizonal scroll-da elementi mərkəzə gətirir
-      block: "nearest", // Şaquli (vertical) scroll-a təsir etmir
-    });
-  };
   return (
     <div className="flex flex-col items-center justify-center w-full relative ">
       <div
@@ -76,9 +76,9 @@ const MenuNavbar = ({
             />
             <input
               onChange={(e) => {
-                const currentValue = e.target.value; 
+                const currentValue = e.target.value;
                 setInputVal(currentValue);
-                
+
                 const filteredProducts = FoodData.products.filter((item) => {
                   return item.name[selectedLang]
                     .toLowerCase()
@@ -114,7 +114,19 @@ const MenuNavbar = ({
         <div className="flex w-max items-center gap-2">
           {category.categories.map((item, id) => (
             <span
-              onClick={() => setSelectedCat(item.title[selectedLang])}
+              onClick={() => {
+                if(id === 0){
+                  handleScrollToTop()
+                }
+                const title = item.title[selectedLang];
+                
+                setSelectedCat(title);
+
+                categoryRefs.current[title]?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
               key={id}
               className={`shrink-0 whitespace-nowrap px-4 py-2 rounded-[50px] cursor-pointer text-[15px] font-medium ${selectedCat === item.title[selectedLang] ? "text-white bg-[#E2D8B7]" : "text-[#212529] "}`}
             >

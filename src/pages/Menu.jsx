@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import FoodData from "../data/foodData.json";
 import categoryData from "../data/categoryData.json";
 import MenuNavbar from "../components/MenuNavbar";
@@ -21,6 +21,8 @@ const Menu = ({
   setSelectedLang,
 }) => {
   const { t, i18n } = useTranslation();
+  const categoryRefs = useRef({});
+  const [selectedCat, setSelectedCat] = useState(null);
   const [inputVal, setInputVal] = useState(""); // input value saxlayan
   const [gridSel, setGridSel] = useState("Grid2"); // productlar grid-cols-1 ve ya grid-cols-2 olmasini deyisen
   const [basketStatus, setBasketStatus] = useState(false); // basketin aciq olub-olmamasinin yoxlayan
@@ -29,10 +31,9 @@ const Menu = ({
   const [totalBasketPrice, setTotalBasketPrice] = useState(0); // cemi odenilecek mebleg
   const [showBtn, setShowBtn] = useState(false);
   const [menuLength, setMenuLength] = useState(0);
-  console.log(menuLength)
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
+      if (window.scrollY > 80) {
         setShowBtn(true);
       } else {
         setShowBtn(false);
@@ -83,14 +84,22 @@ const Menu = ({
     );
   };
 
-
   const deleteItemInBasket = (index, price) => {
     setBasketEl((prev) => prev.filter((item) => item.id != index));
     setTotalBasketPrice(totalBasketPrice - price);
   };
 
+  const handleTabClick = (index, event) => {
+    setActiveTab(index);
+
+    event.currentTarget.scrollIntoView({
+      behavior: "smooth", // Hamar scroll animasiyası
+      inline: "center", // Horizonal scroll-da elementi mərkəzə gətirir
+      block: "nearest", // Şaquli (vertical) scroll-a təsir etmir
+    });
+  };
   return (
-    <div className="flex flex-col w-full items-center justify-center overflow-x-hidden relative">
+    <div className="flex flex-col w-full items-center justify-center overflow-x-hidden relative page-fade">
       {langSwitcher && (
         <>
           <div className="fixed inset-0 bg-black/50 z-25"></div>
@@ -105,6 +114,9 @@ const Menu = ({
         </>
       )}
       <MenuNavbar
+        categoryRefs={categoryRefs}
+        selectedCat={selectedCat}
+        setSelectedCat={setSelectedCat}
         setMenuLength={setMenuLength}
         gridSel={gridSel}
         setGridSel={setGridSel}
@@ -116,7 +128,7 @@ const Menu = ({
       />
       <div className="flex items-center justify-center gap-2 py-2 border-b border-[#EBECED] w-full">
         <BsFillInfoCircleFill className="text-[#E2D8B7]" />
-        <p className="text-[#495057] font-normal text-[14.4px]">
+        <p className="text-[#495057] font-normal text-center text-[14.4px]">
           {t("menu:serviceFeeDescription")}
         </p>
         <BsFillInfoCircleFill className="text-[#E2D8B7]" />
@@ -146,7 +158,10 @@ const Menu = ({
           return (
             <div
               key={cat.id}
-              className="flex flex-col items-center justify-center gap-8 w-full  mb-15 px-5 sm:px-10"
+              ref={(el) => {
+                categoryRefs.current[cat.title[selectedLang]] = el;
+              }}
+              className="flex flex-col items-center justify-center gap-8 w-full  mb-15 px-5 sm:px-10 scroll-mt-14"
             >
               <div className="flex flex-col items-start justify-start w-full">
                 <h2 className="mt-6 mb-4 text-[20px] w-full text-[#212529] font-bold sm:text-[28.8px]">
@@ -160,12 +175,12 @@ const Menu = ({
                   {filteredProducts.map((item) => (
                     <div
                       key={item.id || item.name[selectedLang]}
-                      className="flex flex-col items-start justify-start w-full h-auto bg-white shadow-md rounded-[10px] cursor-pointer transition duration-200 transform hover:-translate-y-1 overflow-hidden md:w-85  lg:w-full hover:shadow-lg"
+                      className="flex flex-col items-start justify-start w-full h-full bg-white shadow-md rounded-[10px] cursor-pointer transition duration-200 transform hover:-translate-y-1 overflow-hidden md:w-85  lg:w-full hover:shadow-lg"
                     >
                       <img
                         src={item.imageUrl}
-                        alt={item.name[selectedLang]}
-                        className="w-full h-33.5 object-cover sm:h-64 lg:h-140"
+                        alt={item.name["az"]}
+                        className={`w-full ${gridSel === 'Grid1' ? "h-70" : "h-33.5"} object-cover sm:h-64 lg:h-140`}
                       />
                       <div className="flex flex-col items-center justify-between gap-6 w-full p-4  transition duration-200 ">
                         <h2 className="text-[14.4px] w-full leading-4.25 text-[#212529] font-semibold">

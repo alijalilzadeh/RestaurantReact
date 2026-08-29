@@ -50,3 +50,16 @@ body {
   background: #c5ba97 !important;
 }
 
+.page-fade {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

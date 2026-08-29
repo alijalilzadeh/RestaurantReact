@@ -20,7 +20,7 @@ const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwi
           content="Gülüstan Garden · SƏHƏR YEMƏKLƏRİ · SOYUQ QƏLYANALTILAR · MƏZƏLƏR · ŞORBALAR · SALATLAR · TAVA YEMƏKLƏRİ · QAZAN YEMƏKLƏRİ · KABABLAR ..."
         />
       </Helmet>
-      <div className="flex flex-col items-center w-full justify-center overflow-x-hidden relative">
+      <div className="flex flex-col items-center w-full justify-center overflow-x-hidden relative page-fade">
         {langSwitcher && (
           <>
             <div className="fixed inset-0 bg-black/50 z-20"></div>
