@@ -19,7 +19,7 @@ const ContactUs = () => {
     },
   ];
   return (
-    <div className="flex flex-col items-center justify-center w-[90%] h-auto rounded-xl bg-white p-4 shadow-[0px_4px_26px_0px_rgba(0,_0,_0,_0.1)] mb-15 sm:w-140" >
+    <div className="flex flex-col items-center justify-center w-[90%] h-auto rounded-xl bg-white p-4 shadow-[0px_4px_26px_0px_rgba(0,0,0,0.1)] mb-15 sm:w-140" >
       <div className="flex items-center justify-start w-full gap-3 mb-3">
         <BsShare size={20} className="text-[#e2d8b7] " />
         <h2 className="text-[#212529] text-[16px] font-semibold">
