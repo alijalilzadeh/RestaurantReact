@@ -8,9 +8,20 @@ import LinkToMenu from "../components/LinkToMenu";
 import { GiRoundStar } from "react-icons/gi";
 import ContactUs from "../components/ContactUs";
 import LanguageChanger from "../components/LanguageChanger";
-const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwitcher,selectedLang,setSelectedLang}) => {
-  
+import WorkingHours from "../components/WorkingHours";
+const HomeInterier = ({
+  filteredSelectedLang,
+  langSelData,
+  langSwitcher,
+  setLangSwitcher,
+  selectedLang,
+  setSelectedLang,
+}) => {
   const { t, i18n } = useTranslation();
+ const [stars, setStars] = useState(
+  Number(localStorage.getItem("stars"))
+)
+
   return (
     <>
       <Helmet>
@@ -56,40 +67,22 @@ const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwi
             </p>
             <div className="flex flex-col items-center justify-center w-full gap-3 my-3">
               <div className="flex items-center justify-center gap-2">
-                <div className="flex items-center justify-center relative group">
-                  <GiRoundStar
-                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
-                  />
-                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
-                </div>
+                {[1, 2, 3, 4, 5].map((star, id) => (
+                  <div
+                    onClick={() => {
+                      setStars(id);
+                      localStorage.setItem("stars", id);
+                    }}
+                    key={id}
+                    className="flex items-center justify-center relative group"
+                  >
+                    <GiRoundStar
+                      className={` ${id <= stars ? "text-[#FFD700]" : "text-[#cccccc]"} w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
+                    />
 
-                <div className="flex items-center justify-center relative group">
-                  <GiRoundStar
-                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
-                  />
-                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
-                </div>
-
-                <div className="flex items-center justify-center relative group">
-                  <GiRoundStar
-                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
-                  />
-                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
-                </div>
-
-                <div className="flex items-center justify-center relative group">
-                  <GiRoundStar
-                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
-                  />
-                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
-                </div>
-
-                <div className="flex items-center justify-center relative group">
-                  <GiRoundStar
-                    className={` text-[#cccccc] w-9 h-9 cursor-pointer transition duration-200 hover:text-[#FFD700]`}
-                  />
-                  <span className={`transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100 `}></span>
-                </div>
+                    <span className="transition duration-200 w-11 h-11 rounded-full absolute -z-1 bg-[#FBEC9F] transform scale-0 group-hover:scale-100"></span>
+                  </div>
+                ))}
               </div>
               <p className="font-medium text-[16px] text-center text-[#212529]">
                 {t(`rateUs`)}
@@ -97,6 +90,7 @@ const HomeInterier = ({filteredSelectedLang, langSelData,langSwitcher,setLangSwi
             </div>
           </div>
           <LinkToMenu />
+          <WorkingHours />
           <ContactUs />
         </div>
       </div>
