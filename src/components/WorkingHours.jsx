@@ -10,7 +10,7 @@ const WorkingHours = () => {
   const { t } = useTranslation();
   const [time, setTime] = useState(new Date());
   const [openOrCLose, setOpenOrClose] = useState(false);
-  const [workingPeriod,setWorkingPeriod] = useState("8:00/23:30")
+  const [workingPeriod,setWorkingPeriod] = useState("8:00/23:00")
   useEffect(() => {
     const timer = setInterval(() => {
       const hour = time.getHours();
