@@ -137,7 +137,7 @@ const MenuNavbar = ({
       <div
         ref={catRef}
         style={isFixed ? { animation: "navSlideDown 0.3s ease-out" } : undefined}
-        className={`w-full overflow-x-auto z-30 bg-[#F8F9FA] px-3 py-1.5 border-t border-[#EBECED] shadow-[0_6px_10px_rgba(0,0,0,0.2)] ${
+        className={`w-full overflow-x-auto z-10 bg-[#F8F9FA] px-3 py-1.5 border-t border-[#EBECED] shadow-[0_6px_10px_rgba(0,0,0,0.2)] ${
           isFixed ? "fixed top-0 left-0 right-0" : ""
         }`}
       >
