@@ -53,6 +53,22 @@ const Menu = ({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+  if (basketStatus || langSwitcher) {
+    const scrollY = window.scrollY;
+    document.body.style.position = "fixed";
+    document.body.style.top = `-${scrollY}px`;
+    document.body.style.width = "100%";
+
+    return () => {
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.width = "";
+      window.scrollTo(0, scrollY);
+    };
+  }
+}, [basketStatus, langSwitcher]);
+
   const addToBasket = (product, price) => {
     setBasketEl((prev) => {
       const foundingProduct = prev.find((item) => item.id === product.id);
@@ -108,7 +124,7 @@ const Menu = ({
     });
   };
   return (
-    <div className="flex flex-col w-full items-center justify-center overflow-x-hidden relative page-fade">
+    <div className={`flex flex-col w-full items-center justify-center overflow-x-hidden relative page-fade `}>
       {langSwitcher && (
         <>
           <div className="fixed inset-0 bg-black/50 z-25"></div>
@@ -135,7 +151,7 @@ const Menu = ({
         selectedLang={selectedLang}
         setLangSwitcher={setLangSwitcher}
       />
-      <div className="flex items-center justify-center gap-2 py-2 border-b border-[#EBECED] w-full">
+      <div className={`flex items-center justify-center gap-2 py-2 border-b border-[#EBECED] w-full`}>
         <BsFillInfoCircleFill className="text-[#E2D8B7]" />
         <p className="text-[#495057] font-normal text-center text-[14.4px]">
           {t("menu:serviceFeeDescription")}

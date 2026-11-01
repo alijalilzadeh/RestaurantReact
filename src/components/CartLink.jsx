@@ -11,7 +11,7 @@ const CartLink = ({
 }) => {
   const { t, i18n } = useTranslation();
   return (
-    <div onClick={()=> setBasketStatus(!basketStatus)} className="flex items-center justify-between w-full h-16 bg-[#e2d8b7]/70 backdrop-blur-md fixed bottom-0 left-0 right-0 rounded-t-[10px] px-4 py-3 sm:cursor-pointer md:cursor-default ">
+    <div onClick={()=> setBasketStatus(!basketStatus)} className="flex items-center justify-between w-full h-16 bg-[#e2d8b7]/70 backdrop-blur-md fixed bottom-0 left-0 right-0 rounded-t-[10px] px-4 py-3 cursor-pointer ">
       <div className="flex items-center justify-center gap-2">
         <h2 className="text-white text-[14.4px] font-normal">
           {t(`menu:basket`)}
