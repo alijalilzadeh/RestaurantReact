@@ -30,31 +30,31 @@ const ContactUs = () => {
         <Link
           target="_blank"
           to={socialNetData[0].link}
-          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#F0F0F0] group hover:bg-[#e2d8b7] hover:-translate-y-1.5`}
+          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#e2d8b7] group hover:bg-[#e2d8b7] hover:-translate-y-1.5 md:bg-[#F0F0F0] md:hover:bg-[#e2d8b7]`}
         >
           <FaInstagram
             size={16}
-            className="text-[#666666] transition duration-200 group-hover:text-white"
+            className="text-white transition duration-200 group-hover:text-white md:text-[#666666]"
           />
         </Link>
         <Link
           target="_blank"
           to={socialNetData[1].link}
-          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#F0F0F0] group hover:bg-[#e2d8b7] hover:-translate-y-1.5`}
+          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#e2d8b7] group hover:bg-[#e2d8b7] hover:-translate-y-1.5 md:bg-[#F0F0F0] md:hover:bg-[#e2d8b7]`}
         >
           <IoLogoTiktok
             size={16}
-            className="text-[#666666] transition duration-200 group-hover:text-white"
+            className="text-white transition duration-200 group-hover:text-white md:text-[#666666]"
           />
         </Link>
         <Link
           target="_blank"
           to={socialNetData[2].link}
-          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#F0F0F0] group hover:bg-[#e2d8b7] hover:-translate-y-1.5`}
+          className={`flex items-center w-10 h-10 justify-center rounded-[50%] transition-all duration-400 bg-[#e2d8b7] group hover:bg-[#e2d8b7] hover:-translate-y-1.5 md:bg-[#F0F0F0] md:hover:bg-[#e2d8b7]`}
         >
           <FaWhatsapp
             size={20}
-            className="text-[#666666] transition duration-200 group-hover:text-white"
+            className="text-white transition duration-200 group-hover:text-white md:text-[#666666]"
           />
         </Link>
       </div>
