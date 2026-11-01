@@ -53,21 +53,21 @@ const Menu = ({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-  if (basketStatus || langSwitcher) {
-    const scrollY = window.scrollY;
-    document.body.style.position = "fixed";
-    document.body.style.top = `-${scrollY}px`;
-    document.body.style.width = "100%";
+//   useEffect(() => {
+//   if (basketStatus || langSwitcher) {
+//     const scrollY = window.scrollY;
+//     document.body.style.position = "fixed";
+//     document.body.style.top = `-${scrollY}px`;
+//     document.body.style.width = "100%";
 
-    return () => {
-      document.body.style.position = "";
-      document.body.style.top = "";
-      document.body.style.width = "";
-      window.scrollTo(0, scrollY);
-    };
-  }
-}, [basketStatus, langSwitcher]);
+//     return () => {
+//       document.body.style.position = "";
+//       document.body.style.top = "";
+//       document.body.style.width = "";
+//       window.scrollTo(0, scrollY);
+//     };
+//   }
+// }, [basketStatus, langSwitcher]);
 
   const addToBasket = (product, price) => {
     setBasketEl((prev) => {
