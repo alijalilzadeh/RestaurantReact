@@ -11,7 +11,7 @@ import { FaCheck } from "react-icons/fa6";
 import CartLink from "../components/CartLink";
 import Basket from "../components/Basket";
 import clickVoice from "../assets/confirmedVoice.mp3";
-import confirmAnimation from "../assets/cart_checkout.gif"
+import confirmAnimation from "../assets/cart_checkout.gif";
 import ScrollUpBtn from "../components/ScrollUpBtn";
 import SearchResult from "../components/SearchResult";
 const Menu = ({
@@ -32,43 +32,32 @@ const Menu = ({
   const [totalBasket, setTotalBasket] = useState(0); //basket icindeki element saylari
   const [totalBasketPrice, setTotalBasketPrice] = useState(0); // cemi odenilecek mebleg
   const [showBtn, setShowBtn] = useState(false);
-  const [confirm, setConfirm] = useState();
   const [menuLength, setMenuLength] = useState(0);
+  const [confirm, setConfirm] = useState(null);
+  const [gifKey, setGifKey] = useState(0);
   const handleConfirm = (id) => {
     setConfirm(id);
+    setGifKey((prev) => prev + 1);
 
     setTimeout(() => {
-      setConfirm();
+      setConfirm(null);
     }, 1860);
   };
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 80) {
-        setShowBtn(true);
-      } else {
-        setShowBtn(false);
-      }
-    };
+  //   useEffect(() => {
+  //   if (basketStatus || langSwitcher) {
+  //     const scrollY = window.scrollY;
+  //     document.body.style.position = "fixed";
+  //     document.body.style.top = `-${scrollY}px`;
+  //     document.body.style.width = "100%";
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-//   useEffect(() => {
-//   if (basketStatus || langSwitcher) {
-//     const scrollY = window.scrollY;
-//     document.body.style.position = "fixed";
-//     document.body.style.top = `-${scrollY}px`;
-//     document.body.style.width = "100%";
-
-//     return () => {
-//       document.body.style.position = "";
-//       document.body.style.top = "";
-//       document.body.style.width = "";
-//       window.scrollTo(0, scrollY);
-//     };
-//   }
-// }, [basketStatus, langSwitcher]);
+  //     return () => {
+  //       document.body.style.position = "";
+  //       document.body.style.top = "";
+  //       document.body.style.width = "";
+  //       window.scrollTo(0, scrollY);
+  //     };
+  //   }
+  // }, [basketStatus, langSwitcher]);
 
   const addToBasket = (product, price) => {
     setBasketEl((prev) => {
@@ -125,7 +114,9 @@ const Menu = ({
     });
   };
   return (
-    <div className={`flex flex-col w-full items-center justify-center overflow-x-hidden relative page-fade `}>
+    <div
+      className={`flex flex-col w-full items-center justify-center overflow-x-hidden relative page-fade `}
+    >
       {langSwitcher && (
         <>
           <div className="fixed inset-0 bg-black/50 z-25"></div>
@@ -152,7 +143,9 @@ const Menu = ({
         selectedLang={selectedLang}
         setLangSwitcher={setLangSwitcher}
       />
-      <div className={`flex items-center justify-center gap-2 py-2 border-b border-[#EBECED] w-full`}>
+      <div
+        className={`flex items-center justify-center gap-2 py-2 border-b border-[#EBECED] w-full`}
+      >
         <BsFillInfoCircleFill className="text-[#E2D8B7]" />
         <p className="text-[#495057] font-normal text-center text-[14.4px]">
           {t("menu:serviceFeeDescription")}
@@ -218,7 +211,12 @@ const Menu = ({
                           </span>
 
                           {confirm && item.id === confirm ? (
-                              <img src={confirmAnimation} className="w-9 h-9 rounded-full flex items-center justify-center" />
+                            <img
+                              key={gifKey}
+                              src={`${confirmAnimation}?v=${gifKey}`}
+                              alt="Added"
+                              className="w-9 h-9 rounded-full"
+                            />
                           ) : (
                             <span
                               onClick={() => {
