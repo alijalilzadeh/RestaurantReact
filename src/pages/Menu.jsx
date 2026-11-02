@@ -11,6 +11,7 @@ import { FaCheck } from "react-icons/fa6";
 import CartLink from "../components/CartLink";
 import Basket from "../components/Basket";
 import clickVoice from "../assets/confirmedVoice.mp3";
+import confirmAnimation from "../assets/cart_checkout.gif"
 import ScrollUpBtn from "../components/ScrollUpBtn";
 import SearchResult from "../components/SearchResult";
 const Menu = ({
@@ -38,7 +39,7 @@ const Menu = ({
 
     setTimeout(() => {
       setConfirm();
-    }, 1000);
+    }, 1860);
   };
   useEffect(() => {
     const handleScroll = () => {
@@ -217,15 +218,7 @@ const Menu = ({
                           </span>
 
                           {confirm && item.id === confirm ? (
-                            <span
-                              onClick={() => {
-                                addToBasket(item, item.price);
-                                handleConfirm();
-                              }}
-                              className="w-9 h-9 rounded-full bg-[#e2d8b7] flex items-center justify-center cursor-pointer transform group transition duration-200 hover:scale-110 bg-[linear-gradient(45deg,rgb(40,167,69),rgb(32,201,151),rgb(40,167,69))]"
-                            >
-                              <FaCheck className="text-white" />
-                            </span>
+                              <img src={confirmAnimation} className="w-9 h-9 rounded-full flex items-center justify-center" />
                           ) : (
                             <span
                               onClick={() => {
